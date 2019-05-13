@@ -4,6 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm run deploy`
+
+Deploys the app to GitHub Pages, see tutorial [here](https://facebook.github.io/create-react-app/docs/deployment#github-pages-https-pagesgithubcom)
+
+The app is deployed at [https://elections.no/results/](https://elections.no/results/)
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
