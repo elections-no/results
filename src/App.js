@@ -172,9 +172,6 @@ class Norway extends React.Component {
     };
 
     this.handleCountyClick = this.handleCountyClick.bind(this);
-    this.handleMunicipalityClick = this.handleMunicipalityClick.bind(this);
-    this.countyHoverEnter = this.countyHoverEnter.bind(this);
-    this.countyHoverLeave = this.countyHoverLeave.bind(this);
   }
   projection() {
     const { width, height } = this.props;
@@ -184,37 +181,10 @@ class Norway extends React.Component {
     );
   }
 
-  countyHoverEnter(countyIndex) {
-    console.log(
-      "Hover enter on county: ",
-      this.state.counties[countyIndex].properties.NAME_1
-    );
-    this.setState({
-      hovered: countyIndex
-    });
-  }
-
-  countyHoverLeave(countyIndex) {
-    console.log(
-      "Hover leave on county: ",
-      this.state.counties[countyIndex].properties.NAME_1
-    );
-    this.setState({
-      hovered: -1
-    });
-  }
-
   handleCountyClick(countyIndex) {
     console.log(
       "Clicked on county: ",
       this.state.counties[countyIndex].properties.NAME_1
-    );
-  }
-
-  handleMunicipalityClick(municipalityIndex) {
-    console.log(
-      "Clicked on municipality: ",
-      this.state.municipalities[municipalityIndex].properties.NAME_1
     );
   }
 
@@ -255,7 +225,6 @@ class Norway extends React.Component {
               key={`path-${i}`}
               d={geoPath().projection(this.projection())(d)}
               className="municipality"
-              onClick={() => this.handleMunicipalityClick(i)}
             />
           ))}
         </g>
