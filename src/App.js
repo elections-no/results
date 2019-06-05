@@ -1,17 +1,23 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./App.css";
+import * as d3 from "d3";
+import { geoMercator, geoPath } from "d3-geo"
+import { feature } from "topojson-client"
+import counties from './json/norway-counties.json';
+import municipalities from './json/norway-municipalities.json';
 
 class ElectionTypes extends React.Component {
   state = {
     election_types: []
-  }
+  };
 
   handleError(res, message) {
     console.log("ERROR (" + res.status + "): " + message);
   }
 
   getElectionTypes() {
-    fetch('https://sleepy-retreat-45150.herokuapp.com/api/election_types')
+    fetch("https://sleepy-retreat-45150.herokuapp.com/api/election_types")
       .then(response => {
         if (!response.ok) {
           this.handleError(response, "Failed to get election types");
@@ -19,7 +25,7 @@ class ElectionTypes extends React.Component {
         return response.json();
       })
       .then(data => {
-        this.setState({election_types: data.election_types});
+        this.setState({ election_types: data.election_types });
       });
   }
 
@@ -30,7 +36,7 @@ class ElectionTypes extends React.Component {
   render() {
     return (
       <ul>
-         {this.state.election_types.map(function(item) {
+        {this.state.election_types.map(function(item) {
           return <li key={item.id}>{item.name}</li>;
         })}
       </ul>
@@ -41,14 +47,14 @@ class ElectionTypes extends React.Component {
 class ElectionEvents extends React.Component {
   state = {
     election_events: []
-  }
+  };
 
   handleError(res, message) {
     console.log("ERROR (" + res.status + "): " + message);
   }
 
   getElectionEvents() {
-    fetch('https://sleepy-retreat-45150.herokuapp.com/api/election_events')
+    fetch("https://sleepy-retreat-45150.herokuapp.com/api/election_events")
       .then(response => {
         if (!response.ok) {
           this.handleError(response, "Failed to get election events");
@@ -56,7 +62,7 @@ class ElectionEvents extends React.Component {
         return response.json();
       })
       .then(data => {
-        this.setState({election_events: data.election_events});
+        this.setState({ election_events: data.election_events });
       });
   }
 
@@ -78,14 +84,14 @@ class ElectionEvents extends React.Component {
 class Elections extends React.Component {
   state = {
     elections: []
-  }
+  };
 
   handleError(res, message) {
     console.log("ERROR (" + res.status + "): " + message);
   }
 
   getElections() {
-    fetch('https://sleepy-retreat-45150.herokuapp.com/api/elections')
+    fetch("https://sleepy-retreat-45150.herokuapp.com/api/elections")
       .then(response => {
         if (!response.ok) {
           this.handleError(response, "Failed to get elections");
@@ -93,7 +99,7 @@ class Elections extends React.Component {
         return response.json();
       })
       .then(data => {
-        this.setState({elections: data.elections});
+        this.setState({ elections: data.elections });
       });
   }
 
@@ -105,26 +111,139 @@ class Elections extends React.Component {
     return (
       <ul>
         {this.state.elections.map(function(item) {
-          return <li key={item.id}>{item.election_event} {item.election_type}</li>;
+          return (
+            <li key={item.id}>
+              {item.election_event} {item.election_type}
+            </li>
+          );
         })}
       </ul>
     );
   }
 }
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Election Results for 2019
-        </p>
-        <ElectionTypes/>
-        <ElectionEvents/>
-        <Elections/>
-      </header>
-    </div>
-  );
+class BarChart extends React.Component {
+  componentDidMount() {
+    this.svg = ReactDOM.findDOMNode(this);
+    this.drawChart();
+  }
+
+  componentDidUpdate() {
+    const { width, height } = this.props;
+    if (width !== 0 && height !== 0) {
+      this.drawChart();
+    }
+  }
+
+  drawChart() {
+    const { data, height } = this.props;
+
+    this.svg.innerHTML = "";
+
+    const svg = d3.select(this.svg);
+
+    svg
+      .selectAll("rect")
+      .data(data)
+      .enter()
+      .append("rect")
+      .attr("x", (d, i) => i * 90) // space between columns
+      .attr("y", (d, i) => height - 10 * d)
+      .attr("width", 65)
+      .attr("height", (d, i) => d * 10)
+      .attr("fill", "gray");
+  }
+
+  render() {
+    const { width, height } = this.props;
+    return <svg width={width} height={height} />;
+  }
+}
+
+class Norway extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      countiesCollection: [],
+      municipalitiesCollection: [],
+      counties: [],
+      municipalities: []
+    }
+
+    this.handleCountyClick = this.handleCountyClick.bind(this)
+  }
+  projection() {
+    const { width, height } = this.props;
+    return geoMercator()
+      .fitSize([width, height], this.state.countiesCollection)
+  }
+
+  handleCountyClick(countyIndex) {
+    console.log("Clicked on county: ", this.state.counties[countyIndex].properties.NAME_1)
+  }
+
+  componentDidMount() {
+    this.setState({
+      countiesCollection: feature(counties, counties.objects.NOR_adm1),
+      municipalitiesCollection: feature(municipalities, municipalities.objects.NOR_adm2),
+      counties: feature(counties, counties.objects.NOR_adm1).features,
+      municipalities: feature(municipalities, municipalities.objects.NOR_adm2).features
+    })
+  }
+  render() {
+    const { width, height } = this.props;
+    return (
+      <svg width={ width } height={ height } viewBox={"0 0 "+ width + " " + height}>
+        <g className="counties">
+          {
+            this.state.counties.map((d,i) => (
+              <path
+                key={ `path-${ i }` }
+                d={ geoPath().projection(this.projection())(d) }
+                className="county"
+                fill={ `rgba(38,50,56,${ 1 / this.state.counties.length * i})` }
+                stroke="#FFFFFF"
+                strokeWidth={ 0.5 }
+                onClick={ () => this.handleCountyClick(i) }
+              />
+            ))
+          }
+        </g>
+      </svg>
+    )
+  }
+}
+
+class App extends React.Component {
+  state = {
+    data: [12, 5, 6, 6, 9, 10],
+    map_data: [12, 5, 6, 6, 9, 10],
+    width: 700,
+    height: 200,
+    map_width: 800,
+    map_height: 450
+  };
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <p>Election Results for 2019</p>
+          <Norway
+            width={this.state.map_width}
+            height={this.state.map_height}
+          />
+          <BarChart
+            data={this.state.data}
+            width={this.state.width}
+            height={this.state.height}
+          />
+          <ElectionTypes />
+          <ElectionEvents />
+          <Elections />
+        </header>
+      </div>
+    );
+  }
 }
 
 export default App;
