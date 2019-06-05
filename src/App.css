@@ -23,6 +23,24 @@
   color: #61dafb;
 }
 
+.county{
+  fill:darkgray;
+  stroke:darkcyan;
+  stroke-width: 1.2;
+  pointer-events:all;
+}
+.county:hover{
+  fill:whitesmoke;
+  stroke:darkcyan;
+}
+
+.municipality{
+  fill:none;
+  stroke:gray;
+  stroke-width: 0.5;
+  pointer-events:none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

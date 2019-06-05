@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./App.css";
 import * as d3 from "d3";
-import { geoMercator, geoPath } from "d3-geo"
-import { feature } from "topojson-client"
-import counties from './json/norway-counties.json';
-import municipalities from './json/norway-municipalities.json';
+import { geoMercator, geoPath } from "d3-geo";
+import { feature } from "topojson-client";
+import counties from "./json/norway-counties.json";
+import municipalities from "./json/norway-municipalities.json";
 
 class ElectionTypes extends React.Component {
   state = {
@@ -162,55 +162,105 @@ class BarChart extends React.Component {
 
 class Norway extends React.Component {
   constructor() {
-    super()
+    super();
     this.state = {
       countiesCollection: [],
       municipalitiesCollection: [],
       counties: [],
-      municipalities: []
-    }
+      municipalities: [],
+      hovered: -1
+    };
 
-    this.handleCountyClick = this.handleCountyClick.bind(this)
+    this.handleCountyClick = this.handleCountyClick.bind(this);
+    this.handleMunicipalityClick = this.handleMunicipalityClick.bind(this);
+    this.countyHoverEnter = this.countyHoverEnter.bind(this);
+    this.countyHoverLeave = this.countyHoverLeave.bind(this);
   }
   projection() {
     const { width, height } = this.props;
-    return geoMercator()
-      .fitSize([width, height], this.state.countiesCollection)
+    return geoMercator().fitSize(
+      [width, height],
+      this.state.countiesCollection
+    );
+  }
+
+  countyHoverEnter(countyIndex) {
+    console.log(
+      "Hover enter on county: ",
+      this.state.counties[countyIndex].properties.NAME_1
+    );
+    this.setState({
+      hovered: countyIndex
+    });
+  }
+
+  countyHoverLeave(countyIndex) {
+    console.log(
+      "Hover leave on county: ",
+      this.state.counties[countyIndex].properties.NAME_1
+    );
+    this.setState({
+      hovered: -1
+    });
   }
 
   handleCountyClick(countyIndex) {
-    console.log("Clicked on county: ", this.state.counties[countyIndex].properties.NAME_1)
+    console.log(
+      "Clicked on county: ",
+      this.state.counties[countyIndex].properties.NAME_1
+    );
+  }
+
+  handleMunicipalityClick(municipalityIndex) {
+    console.log(
+      "Clicked on municipality: ",
+      this.state.municipalities[municipalityIndex].properties.NAME_1
+    );
   }
 
   componentDidMount() {
     this.setState({
       countiesCollection: feature(counties, counties.objects.NOR_adm1),
-      municipalitiesCollection: feature(municipalities, municipalities.objects.NOR_adm2),
+      municipalitiesCollection: feature(
+        municipalities,
+        municipalities.objects.NOR_adm2
+      ),
       counties: feature(counties, counties.objects.NOR_adm1).features,
-      municipalities: feature(municipalities, municipalities.objects.NOR_adm2).features
-    })
+      municipalities: feature(municipalities, municipalities.objects.NOR_adm2)
+        .features
+    });
   }
+
   render() {
     const { width, height } = this.props;
     return (
-      <svg width={ width } height={ height } viewBox={"0 0 "+ width + " " + height}>
+      <svg
+        width={width}
+        height={height}
+        viewBox={"0 0 " + width + " " + height}
+      >
         <g className="counties">
-          {
-            this.state.counties.map((d,i) => (
-              <path
-                key={ `path-${ i }` }
-                d={ geoPath().projection(this.projection())(d) }
-                className="county"
-                fill={ `rgba(38,50,56,${ 1 / this.state.counties.length * i})` }
-                stroke="#FFFFFF"
-                strokeWidth={ 0.5 }
-                onClick={ () => this.handleCountyClick(i) }
-              />
-            ))
-          }
+          {this.state.counties.map((d, i) => (
+            <path
+              key={`path-${i}`}
+              d={geoPath().projection(this.projection())(d)}
+              className="county"
+              onClick={() => this.handleCountyClick(i)}
+            />
+          ))}
+        </g>
+        <g className="municipalities">
+          {this.state.municipalities.map((d, i) => (
+            <path
+              key={`path-${i}`}
+              d={geoPath().projection(this.projection())(d)}
+              className="municipality"
+              onClick={() => this.handleMunicipalityClick(i)}
+            />
+          ))}
         </g>
       </svg>
-    )
+    );
   }
 }
 
@@ -229,8 +279,8 @@ class App extends React.Component {
         <header className="App-header">
           <p>Election Results for 2019</p>
           <Norway
-            width={this.state.map_width}
-            height={this.state.map_height}
+            width={2 * this.state.map_width}
+            height={2 * this.state.map_height}
           />
           <BarChart
             data={this.state.data}
