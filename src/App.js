@@ -171,6 +171,7 @@ class Norway extends React.Component {
     };
 
     this.handleCountyClick = this.handleCountyClick.bind(this);
+    this.handleClick = this.handleClick.bind(this);
     this.getBoundingBox = this.getBoundingBox.bind(this);
     this.getBoundingBoxCenter = this.getBoundingBoxCenter.bind(this);
   }
@@ -217,6 +218,10 @@ class Norway extends React.Component {
     console.log("Clicked on county number: ", this.state.counties[countyIndex].properties.ID_1);
   }
 
+  handleClick() {
+    console.log("Clicked!");
+  }
+
   componentDidMount() {
     this.setState({
       countiesCollection: feature(counties, counties.objects.NOR_adm1),
@@ -234,7 +239,7 @@ class Norway extends React.Component {
   render() {
     const { id, width, height } = this.props;
     return (
-      <svg id={id} width={width} height={height} viewBox={"0 0 " + width + " " + height}>
+      <svg id={id} width={width} height={height} viewBox={"0 0 " + width + " " + height} onClick={() => this.handleClick()}>
         <g className="counties">
           {this.state.counties.map((d, i) => (
             <path
