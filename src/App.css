@@ -29,6 +29,7 @@
 }
 
 .county{
+  transition: fill 1.2s ease;
   fill:darkgray;
   stroke:darkcyan;
   stroke-width: 1.2;
