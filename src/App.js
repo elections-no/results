@@ -176,10 +176,7 @@ class Norway extends React.Component {
   }
   projection() {
     const { width, height } = this.props;
-    return geoMercator().fitSize(
-      [width, height],
-      this.state.countiesCollection
-    );
+    return geoMercator().fitSize([width, height], this.state.countiesCollection);
   }
 
   getBoundingBoxCenter(bbox) {
@@ -216,27 +213,16 @@ class Norway extends React.Component {
       d3.select("svg").attr("viewBox", view);
     }
 
-    console.log(
-      "Clicked on county: ",
-      this.state.counties[countyIndex].properties.NAME_1
-    );
-
-    console.log(
-      "Clicked on county number: ",
-      this.state.counties[countyIndex].properties.ID_1
-    );
+    console.log("Clicked on county: ", this.state.counties[countyIndex].properties.NAME_1);
+    console.log("Clicked on county number: ", this.state.counties[countyIndex].properties.ID_1);
   }
 
   componentDidMount() {
     this.setState({
       countiesCollection: feature(counties, counties.objects.NOR_adm1),
-      municipalitiesCollection: feature(
-        municipalities,
-        municipalities.objects.NOR_adm2
-      ),
+      municipalitiesCollection: feature(municipalities, municipalities.objects.NOR_adm2),
       counties: feature(counties, counties.objects.NOR_adm1).features,
-      municipalities: feature(municipalities, municipalities.objects.NOR_adm2)
-        .features
+      municipalities: feature(municipalities, municipalities.objects.NOR_adm2).features
     });
   }
 
@@ -248,12 +234,7 @@ class Norway extends React.Component {
   render() {
     const { id, width, height } = this.props;
     return (
-      <svg
-        id={id}
-        width={width}
-        height={height}
-        viewBox={"0 0 " + width + " " + height}
-      >
+      <svg id={id} width={width} height={height} viewBox={"0 0 " + width + " " + height}>
         <g className="counties">
           {this.state.counties.map((d, i) => (
             <path
@@ -267,11 +248,7 @@ class Norway extends React.Component {
         </g>
         <g className="municipalities">
           {this.state.municipalities.map((d, i) => (
-            <path
-              key={`municipality-${i}`}
-              d={geoPath().projection(this.projection())(d)}
-              className="municipality"
-            />
+            <path key={`municipality-${i}`} d={geoPath().projection(this.projection())(d)} className="municipality" />
           ))}
         </g>
       </svg>
@@ -293,16 +270,8 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <p>Election Results for 2019</p>
-          <Norway
-            id="simple"
-            width={2 * this.state.map_width}
-            height={2 * this.state.map_height}
-          />
-          <BarChart
-            data={this.state.data}
-            width={this.state.width}
-            height={this.state.height}
-          />
+          <Norway id="simple" width={2 * this.state.map_width} height={2 * this.state.map_height} />
+          <BarChart data={this.state.data} width={this.state.width} height={this.state.height} />
           <ElectionTypes />
           <ElectionEvents />
           <Elections />
