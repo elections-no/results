@@ -167,11 +167,12 @@ class Norway extends React.Component {
       countiesCollection: [],
       municipalitiesCollection: [],
       counties: [],
-      municipalities: [],
-      hovered: -1
+      municipalities: []
     };
 
     this.handleCountyClick = this.handleCountyClick.bind(this);
+    this.getBoundingBox = this.getBoundingBox.bind(this);
+    this.getBoundingBoxCenter = this.getBoundingBoxCenter.bind(this);
   }
   projection() {
     const { width, height } = this.props;
@@ -181,10 +182,48 @@ class Norway extends React.Component {
     );
   }
 
+  getBoundingBoxCenter(bbox) {
+    return [bbox.x + bbox.width / 2, bbox.y + bbox.height / 2];
+  }
+
+  getBoundingBox(selection) {
+    const element = selection.node();
+    return element.getBBox();
+  }
+
+  makeViewBoxString(x, y, width, height) {
+    return "" + x + " " + y + " " + width + " " + height;
+  }
+
   handleCountyClick(countyIndex) {
+    const key = "#" + this.makeId("county", countyIndex);
+    const selection = d3.select(key);
+    const was_selected = selection.classed("active");
+
+    d3.selectAll("path").classed("active", (d, i, nodes) => {
+      const node = d3.select(nodes[i]);
+      node.classed("active", false);
+    });
+
+    if (!was_selected) {
+      selection.classed("active", true);
+      const { x, y, width, height } = this.getBoundingBox(selection);
+      let view = this.makeViewBoxString(x, y, width, height);
+      d3.select("svg").attr("viewBox", view);
+    } else {
+      const { width, height } = this.props;
+      let view = this.makeViewBoxString(0, 0, width, height);
+      d3.select("svg").attr("viewBox", view);
+    }
+
     console.log(
       "Clicked on county: ",
       this.state.counties[countyIndex].properties.NAME_1
+    );
+
+    console.log(
+      "Clicked on county number: ",
+      this.state.counties[countyIndex].properties.ID_1
     );
   }
 
@@ -201,10 +240,16 @@ class Norway extends React.Component {
     });
   }
 
+  makeId(kind, enumerator) {
+    const { id } = this.props;
+    return "" + id + "-" + kind + "-" + enumerator;
+  }
+
   render() {
-    const { width, height } = this.props;
+    const { id, width, height } = this.props;
     return (
       <svg
+        id={id}
         width={width}
         height={height}
         viewBox={"0 0 " + width + " " + height}
@@ -212,7 +257,8 @@ class Norway extends React.Component {
         <g className="counties">
           {this.state.counties.map((d, i) => (
             <path
-              key={`path-${i}`}
+              id={this.makeId("county", i)}
+              key={`county-${i}`}
               d={geoPath().projection(this.projection())(d)}
               className="county"
               onClick={() => this.handleCountyClick(i)}
@@ -222,7 +268,7 @@ class Norway extends React.Component {
         <g className="municipalities">
           {this.state.municipalities.map((d, i) => (
             <path
-              key={`path-${i}`}
+              key={`municipality-${i}`}
               d={geoPath().projection(this.projection())(d)}
               className="municipality"
             />
@@ -248,6 +294,7 @@ class App extends React.Component {
         <header className="App-header">
           <p>Election Results for 2019</p>
           <Norway
+            id="simple"
             width={2 * this.state.map_width}
             height={2 * this.state.map_height}
           />

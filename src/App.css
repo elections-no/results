@@ -23,6 +23,11 @@
   color: #61dafb;
 }
 
+.county.active{
+  fill:darkcyan;
+  stroke-width: 0.2;
+}
+
 .county{
   fill:darkgray;
   stroke:darkcyan;
