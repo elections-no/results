@@ -21259,7 +21259,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "VARNAME_1": "Akershus fylke",
                         "HASC_1": "NO.AK",
@@ -21290,8 +21290,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "VARNAME_1": "Oestfold fylke",
                         "HASC_1": "NO.OF",
                         "TYPE_1": "Fylke",
@@ -21318,7 +21318,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2089,
+                        "ID_1": "09",
                         "NAME_1": "Aust-Agder",
                         "VARNAME_1": "Aust-Agder fylke|Austur-Agðir|Nedenes",
                         "HASC_1": "NO.AA",
@@ -21343,7 +21343,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "VARNAME_1": "Buskerud fylke",
                         "HASC_1": "NO.BU",
@@ -21424,7 +21424,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "VARNAME_1": "Finnmark fylke|Finmarken|Finnmárkku|Finnmörk",
                         "HASC_1": "NO.FI",
@@ -21445,7 +21445,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "VARNAME_1": "Hedmark fylke|Hedemarken|Heiðmörk",
                         "HASC_1": "NO.HE",
@@ -21567,7 +21567,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "VARNAME_1": "Hordaland fylke|Hörðaland|Søndre Bergenhus",
                         "HASC_1": "NO.HO",
@@ -21727,7 +21727,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": 15,
                         "NAME_1": "Møre og Romsdal",
                         "VARNAME_1": "Moere og Romsdal fylk|Møre|Romsdal",
                         "HASC_1": "NO.MR",
@@ -21922,7 +21922,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "VARNAME_1": "Nordland fylke",
                         "HASC_1": "NO.NO",
@@ -21970,7 +21970,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "VARNAME_1": "Nord-Troendelag fylke|Nordre Trondhjem|Norður-Þrændalög",
                         "HASC_1": "NO.NT",
@@ -21995,7 +21995,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "VARNAME_1": "Oppland fylke|Kristian|Opland|Upplönd",
                         "HASC_1": "NO.OP",
@@ -22018,7 +22018,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2098,
+                        "ID_1": "03",
                         "NAME_1": "Oslo",
                         "VARNAME_1": "Oslo fylke|Kristiania",
                         "HASC_1": "NO.OS",
@@ -22080,7 +22080,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "VARNAME_1": "Rogaland fylke|Stavanger",
                         "HASC_1": "NO.RO",
@@ -22169,7 +22169,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "VARNAME_1": "Sogn og Fjordane fyl|Nordre Bergenhus|Sogn og Firða-Fylki",
                         "HASC_1": "NO.SF",
@@ -22245,7 +22245,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "VARNAME_1": "Soer-Troendelag fylke|Søndre Trondhjem|Suður-Þrændalög",
                         "HASC_1": "NO.ST",
@@ -22268,7 +22268,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2102,
+                        "ID_1": "08",
                         "NAME_1": "Telemark",
                         "VARNAME_1": "Telemark fylke|Bratsberg|Þelamörk",
                         "HASC_1": "NO.TE",
@@ -22422,7 +22422,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "VARNAME_1": "Troms fylke|Tromsø|Troms-Fylki",
                         "HASC_1": "NO.TR",
@@ -22450,7 +22450,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2104,
+                        "ID_1": "10",
                         "NAME_1": "Vest-Agder",
                         "VARNAME_1": "Vest-Agder fylke|Lister og Mandal|Vestur-Agðir",
                         "HASC_1": "NO.VA",
@@ -22480,7 +22480,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2105,
+                        "ID_1": "07",
                         "NAME_1": "Vestfold",
                         "VARNAME_1": "Vestfold fylke|Jarlsberg og Larvik",
                         "HASC_1": "NO.VF",
