@@ -48,12 +48,11 @@
 }
 
 div.tooltip {
+  display: inline-block;
   position: absolute;
   text-align: center;
   vertical-align: middle;
-  width: 120px;
-  height: 60px;
-  padding: 2px;
+  padding: 10px;
   background: whitesmoke;
   color: darkcyan;
   border: 0px;
