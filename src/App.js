@@ -167,8 +167,8 @@ class App extends React.Component {
     map_height: 450
   };
 
-  handleClick = (e, countyNumber) => {
-    console.log("Click happened :", countyNumber);
+  handleClick = (e, countyNumber, sectionName) => {
+    console.log("Click happened :", countyNumber, sectionName);
   };
 
   handleMouseOver = (e, text) => {

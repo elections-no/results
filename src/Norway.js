@@ -73,7 +73,7 @@ class Norway extends React.Component {
     }
 
     const { onClick } = this.props;
-    onClick(event, this.getCountyNumber(countyIndex));
+    onClick(event, this.getCountyNumber(countyIndex), this.getCountyName(countyIndex));
   }
 
   zoomIn(view) {
@@ -229,6 +229,9 @@ class Norway extends React.Component {
 
   handleMunicipalityClick(municipalityIndex, event) {
     console.log("Clicked : " + this.getMunicipalityName(municipalityIndex));
+
+    const { onClick } = this.props;
+    onClick(event, this.getMunicipalityNumber(municipalityIndex), this.getMunicipalityName(municipalityIndex));
   }
 
   showMunicipalityTooltip(municipalityIndex, event) {
