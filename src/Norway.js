@@ -164,18 +164,27 @@ class Norway extends React.Component {
     return this.getCenter(selection);
   }
 
-  showCountyTooltip(countyIndex, event) {
+  fadeInTooltip() {
     d3.select(".tooltip")
       .transition()
       .duration(200)
       .style("opacity", 0.9);
+  }
 
-    const { x, y } = this.getCountyCenter(countyIndex);
-
+  positionTooltip(text, x, y) {
     d3.select(".tooltip")
-      .html(this.getCountyName(countyIndex))
+      .html(text)
       .style("left", x + "px")
       .style("top", y + "px");
+  }
+
+  showCountyTooltip(countyIndex, event) {
+    this.fadeInTooltip();
+
+    const { x, y } = this.getCountyCenter(countyIndex);
+    const text = this.getCountyName(countyIndex);
+
+    this.positionTooltip(text, x, y);
 
     // Propagate event
     const { onMouseOver } = this.props;
@@ -223,17 +232,12 @@ class Norway extends React.Component {
   }
 
   showMunicipalityTooltip(municipalityIndex, event) {
-    d3.select(".tooltip")
-      .transition()
-      .duration(200)
-      .style("opacity", 0.9);
+    this.fadeInTooltip();
 
     const { x, y } = this.getMunicipalityCenter(municipalityIndex);
+    const text = this.getMunicipalityName(municipalityIndex);
 
-    d3.select(".tooltip")
-      .html(this.getMunicipalityName(municipalityIndex))
-      .style("left", x + "px")
-      .style("top", y + "px");
+    this.positionTooltip(text, x, y);
 
     // Propagate event
     const { onMouseOver } = this.props;
