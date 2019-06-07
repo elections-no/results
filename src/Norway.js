@@ -182,15 +182,19 @@ class Norway extends React.Component {
     onMouseOver(event, this.getCountyName(countyIndex));
   }
 
-  hideCountyTooltip(countyIndex, event) {
+  hideTooltip(event) {
     d3.select(".tooltip")
       .transition()
       .duration(500)
       .style("opacity", 0);
-
     // Propagate event
     const { onMouseOut } = this.props;
     onMouseOut(event);
+  }
+
+  hideCountyTooltip(countyIndex, event) {
+    this.hideTooltip(event);
+    console.log("Hide Tooltip : " + this.getCountyName(countyIndex));
   }
 
   /**
@@ -239,6 +243,7 @@ class Norway extends React.Component {
   }
 
   hideMunicipalityTooltip(municipalityIndex, event) {
+    this.hideTooltip(event);
     console.log("Hide Tooltip : " + this.getMunicipalityName(municipalityIndex));
   }
 
