@@ -74,13 +74,13 @@ class Norway extends React.Component {
   }
 
   zoomIn(view) {
-    d3.select("svg").attr("viewBox", view);
+    d3.select("#" + this.props.id).attr("viewBox", view);
   }
 
   zoomOut() {
     const { width, height } = this.props;
     let view = this.makeViewBoxString(0, 0, width, height);
-    d3.select("svg").attr("viewBox", view);
+    d3.select("#" + this.props.id).attr("viewBox", view);
   }
 
   getCountyNumber(countyIndex) {
