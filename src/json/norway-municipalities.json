@@ -37377,7 +37377,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24956,
                         "NAME_2": "Fosnes",
@@ -37398,7 +37398,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24957,
                         "NAME_2": "Frosta",
@@ -37423,7 +37423,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24958,
                         "NAME_2": "Grong",
@@ -37448,7 +37448,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24959,
                         "NAME_2": "Høylandet",
@@ -37470,7 +37470,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24960,
                         "NAME_2": "Inderøy",
@@ -37499,7 +37499,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24961,
                         "NAME_2": "Leka",
@@ -37523,7 +37523,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24962,
                         "NAME_2": "Leksvik",
@@ -37554,7 +37554,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24963,
                         "NAME_2": "Levanger",
@@ -37577,7 +37577,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24964,
                         "NAME_2": "Lierne",
@@ -37609,7 +37609,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25054,
                         "NAME_2": "Solund",
@@ -37636,7 +37636,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25055,
                         "NAME_2": "Stryn",
@@ -37666,7 +37666,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25056,
                         "NAME_2": "Vågsøy",
@@ -37691,7 +37691,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25057,
                         "NAME_2": "Vik",
@@ -37735,7 +37735,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25058,
                         "NAME_2": "Åfjord",
@@ -37757,7 +37757,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25059,
                         "NAME_2": "Agdenes",
@@ -37781,7 +37781,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25060,
                         "NAME_2": "Bjugn",
@@ -37801,7 +37801,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25061,
                         "NAME_2": "Frøya",
@@ -37830,7 +37830,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25062,
                         "NAME_2": "Hemne",
@@ -37857,7 +37857,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24787,
                         "NAME_2": "Lier",
@@ -37883,7 +37883,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24788,
                         "NAME_2": "Modum",
@@ -37907,7 +37907,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24789,
                         "NAME_2": "Nedre Eiker",
@@ -37931,7 +37931,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24790,
                         "NAME_2": "Nes",
@@ -37959,7 +37959,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24791,
                         "NAME_2": "Nore og Uvdal",
@@ -37984,7 +37984,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24792,
                         "NAME_2": "Øvre Eiker",
@@ -38015,7 +38015,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24793,
                         "NAME_2": "Ringerike",
@@ -38038,7 +38038,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24794,
                         "NAME_2": "Rollag",
@@ -38062,7 +38062,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24795,
                         "NAME_2": "Røyken",
@@ -38087,7 +38087,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24908,
                         "NAME_2": "Vestnes",
@@ -38111,7 +38111,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24909,
                         "NAME_2": "Volda",
@@ -38141,7 +38141,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24910,
                         "NAME_2": "Alstahaug",
@@ -38170,7 +38170,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24911,
                         "NAME_2": "Andøy",
@@ -38194,7 +38194,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24912,
                         "NAME_2": "Ballangen",
@@ -38219,7 +38219,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24913,
                         "NAME_2": "Beiarn",
@@ -38255,7 +38255,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24914,
                         "NAME_2": "Bindal",
@@ -38279,7 +38279,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24915,
                         "NAME_2": "Bø",
@@ -38316,7 +38316,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24916,
                         "NAME_2": "Bodø",
@@ -38341,7 +38341,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24718,
                         "NAME_2": "Ås",
@@ -38364,7 +38364,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24719,
                         "NAME_2": "Asker",
@@ -38392,7 +38392,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24720,
                         "NAME_2": "Aurskog-Høland",
@@ -38418,7 +38418,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24721,
                         "NAME_2": "Bærum",
@@ -38444,7 +38444,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24722,
                         "NAME_2": "Eidsvoll",
@@ -38471,7 +38471,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24723,
                         "NAME_2": "Enebakk",
@@ -38496,7 +38496,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24724,
                         "NAME_2": "Fet",
@@ -38520,7 +38520,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24725,
                         "NAME_2": "Frogn",
@@ -38544,7 +38544,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24726,
                         "NAME_2": "Gjerdrum",
@@ -38567,7 +38567,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24727,
                         "NAME_2": "Hurdal",
@@ -38590,7 +38590,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24728,
                         "NAME_2": "Lørenskog",
@@ -38617,7 +38617,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24729,
                         "NAME_2": "Nannestad",
@@ -38651,7 +38651,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24730,
                         "NAME_2": "Nesodden",
@@ -38676,7 +38676,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24731,
                         "NAME_2": "Nittedal",
@@ -38699,7 +38699,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24732,
                         "NAME_2": "Oppegård",
@@ -38722,7 +38722,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24733,
                         "NAME_2": "Rælingen",
@@ -38748,7 +38748,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24734,
                         "NAME_2": "Skedsmo",
@@ -38772,7 +38772,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24735,
                         "NAME_2": "Ski",
@@ -38797,7 +38797,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24736,
                         "NAME_2": "Sørum",
@@ -38821,7 +38821,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24737,
                         "NAME_2": "Ullensaker",
@@ -38846,7 +38846,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2087,
+                        "ID_1": "02",
                         "NAME_1": "Akershus",
                         "ID_2": 24738,
                         "NAME_2": "Vestby",
@@ -38869,8 +38869,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24739,
                         "NAME_2": "Aremark",
                         "VARNAME_2": "",
@@ -38892,8 +38892,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24740,
                         "NAME_2": "Askim",
                         "VARNAME_2": "",
@@ -38915,8 +38915,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24741,
                         "NAME_2": "Borge",
                         "VARNAME_2": "",
@@ -38940,8 +38940,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24742,
                         "NAME_2": "Eidsberg",
                         "VARNAME_2": "",
@@ -38967,8 +38967,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24743,
                         "NAME_2": "Fredrikstad",
                         "VARNAME_2": "",
@@ -38991,8 +38991,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24744,
                         "NAME_2": "Halden",
                         "VARNAME_2": "",
@@ -39016,8 +39016,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24745,
                         "NAME_2": "Hobøl",
                         "VARNAME_2": "",
@@ -39043,8 +39043,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24746,
                         "NAME_2": "Hvaler",
                         "VARNAME_2": "",
@@ -39066,8 +39066,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24747,
                         "NAME_2": "Kraakeroey",
                         "VARNAME_2": "",
@@ -39091,8 +39091,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24748,
                         "NAME_2": "Marker",
                         "VARNAME_2": "",
@@ -39114,8 +39114,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24749,
                         "NAME_2": "Moss",
                         "VARNAME_2": "",
@@ -39136,8 +39136,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24750,
                         "NAME_2": "Onsoey",
                         "VARNAME_2": "",
@@ -39163,8 +39163,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24751,
                         "NAME_2": "Råde",
                         "VARNAME_2": "",
@@ -39188,8 +39188,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24752,
                         "NAME_2": "Rakkestad",
                         "VARNAME_2": "",
@@ -39211,8 +39211,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24753,
                         "NAME_2": "Rolvsoey",
                         "VARNAME_2": "",
@@ -39233,8 +39233,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24754,
                         "NAME_2": "Rømskog",
                         "VARNAME_2": "",
@@ -39256,8 +39256,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24755,
                         "NAME_2": "Rygge",
                         "VARNAME_2": "",
@@ -39285,8 +39285,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24756,
                         "NAME_2": "Sarpsborg",
                         "VARNAME_2": "",
@@ -39310,8 +39310,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24757,
                         "NAME_2": "Skiptvet",
                         "VARNAME_2": "Skiptvedt",
@@ -39335,8 +39335,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24758,
                         "NAME_2": "Spydeberg",
                         "VARNAME_2": "",
@@ -39360,8 +39360,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24759,
                         "NAME_2": "Trøgstad",
                         "VARNAME_2": "",
@@ -39387,8 +39387,8 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2088,
-                        "NAME_1": "Ãstfold",
+                        "ID_1": "01",
+                        "NAME_1": "Østfold",
                         "ID_2": 24760,
                         "NAME_2": "Våler",
                         "VARNAME_2": "",
@@ -39412,7 +39412,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2089,
+                        "ID_1": "09",
                         "NAME_1": "Aust-Agder",
                         "ID_2": 24761,
                         "NAME_2": "Åmli",
@@ -39442,7 +39442,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2089,
+                        "ID_1": "09",
                         "NAME_1": "Aust-Agder",
                         "ID_2": 24762,
                         "NAME_2": "Arendal",
@@ -39469,7 +39469,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2089,
+                        "ID_1": "09",
                         "NAME_1": "Aust-Agder",
                         "ID_2": 24763,
                         "NAME_2": "Birkenes",
@@ -39496,7 +39496,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2089,
+                        "ID_1": "09",
                         "NAME_1": "Aust-Agder",
                         "ID_2": 24764,
                         "NAME_2": "Bygland",
@@ -39522,7 +39522,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2089,
+                        "ID_1": "09",
                         "NAME_1": "Aust-Agder",
                         "ID_2": 24765,
                         "NAME_2": "Bykle",
@@ -39549,7 +39549,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2089,
+                        "ID_1": "09",
                         "NAME_1": "Aust-Agder",
                         "ID_2": 24766,
                         "NAME_2": "Evje og Hornnes",
@@ -39575,7 +39575,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2089,
+                        "ID_1": "09",
                         "NAME_1": "Aust-Agder",
                         "ID_2": 24767,
                         "NAME_2": "Froland",
@@ -39599,7 +39599,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2089,
+                        "ID_1": "09",
                         "NAME_1": "Aust-Agder",
                         "ID_2": 24768,
                         "NAME_2": "Gjerstad",
@@ -39623,7 +39623,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2089,
+                        "ID_1": "09",
                         "NAME_1": "Aust-Agder",
                         "ID_2": 24769,
                         "NAME_2": "Grimstad",
@@ -39645,7 +39645,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2089,
+                        "ID_1": "09",
                         "NAME_1": "Aust-Agder",
                         "ID_2": 24770,
                         "NAME_2": "Iveland",
@@ -39668,7 +39668,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2089,
+                        "ID_1": "09",
                         "NAME_1": "Aust-Agder",
                         "ID_2": 24771,
                         "NAME_2": "Lillesand",
@@ -39700,7 +39700,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2089,
+                        "ID_1": "09",
                         "NAME_1": "Aust-Agder",
                         "ID_2": 24772,
                         "NAME_2": "Risør",
@@ -39727,7 +39727,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2089,
+                        "ID_1": "09",
                         "NAME_1": "Aust-Agder",
                         "ID_2": 24773,
                         "NAME_2": "Tvedestrand",
@@ -39751,7 +39751,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2089,
+                        "ID_1": "09",
                         "NAME_1": "Aust-Agder",
                         "ID_2": 24774,
                         "NAME_2": "Valle",
@@ -39775,7 +39775,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2089,
+                        "ID_1": "09",
                         "NAME_1": "Aust-Agder",
                         "ID_2": 24775,
                         "NAME_2": "Vegårshei",
@@ -39800,7 +39800,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24776,
                         "NAME_2": "Ål",
@@ -39825,7 +39825,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24777,
                         "NAME_2": "Drammen",
@@ -39850,7 +39850,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24778,
                         "NAME_2": "Flå",
@@ -39875,7 +39875,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24779,
                         "NAME_2": "Flesberg",
@@ -39899,7 +39899,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24780,
                         "NAME_2": "Gol",
@@ -39924,7 +39924,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24781,
                         "NAME_2": "Hemsedal",
@@ -39950,7 +39950,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24782,
                         "NAME_2": "Hol",
@@ -39973,7 +39973,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24783,
                         "NAME_2": "Hole",
@@ -39994,7 +39994,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24784,
                         "NAME_2": "Hurum",
@@ -40021,7 +40021,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24785,
                         "NAME_2": "Kongsberg",
@@ -40044,7 +40044,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24786,
                         "NAME_2": "Krødsherad",
@@ -40070,7 +40070,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2090,
+                        "ID_1": "06",
                         "NAME_1": "Buskerud",
                         "ID_2": 24796,
                         "NAME_2": "Sigdal",
@@ -40111,7 +40111,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "ID_2": 24797,
                         "NAME_2": "Alta",
@@ -40135,7 +40135,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "ID_2": 24798,
                         "NAME_2": "Båtsfjord",
@@ -40158,7 +40158,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "ID_2": 24799,
                         "NAME_2": "Berlevåg",
@@ -40180,7 +40180,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "ID_2": 24800,
                         "NAME_2": "Gamvik",
@@ -40218,7 +40218,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "ID_2": 24801,
                         "NAME_2": "Hammerfest",
@@ -40247,7 +40247,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "ID_2": 24802,
                         "NAME_2": "Hasvik",
@@ -40271,7 +40271,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "ID_2": 24803,
                         "NAME_2": "Karasjok",
@@ -40295,7 +40295,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "ID_2": 24804,
                         "NAME_2": "Kautokeino",
@@ -40334,7 +40334,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "ID_2": 24805,
                         "NAME_2": "Kvalsund",
@@ -40358,7 +40358,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "ID_2": 24806,
                         "NAME_2": "Lebesby",
@@ -40387,7 +40387,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "ID_2": 24807,
                         "NAME_2": "Loppa",
@@ -40432,7 +40432,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "ID_2": 24808,
                         "NAME_2": "Måsøy",
@@ -40456,7 +40456,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "ID_2": 24809,
                         "NAME_2": "Nesseby",
@@ -40487,7 +40487,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "ID_2": 24810,
                         "NAME_2": "Nordkapp",
@@ -40515,7 +40515,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "ID_2": 24811,
                         "NAME_2": "Porsanger",
@@ -40543,7 +40543,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "ID_2": 24812,
                         "NAME_2": "Sør-Varanger",
@@ -40572,7 +40572,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "ID_2": 24813,
                         "NAME_2": "Tana",
@@ -40596,7 +40596,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "ID_2": 24814,
                         "NAME_2": "Vadsø",
@@ -40618,7 +40618,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2091,
+                        "ID_1": "20",
                         "NAME_1": "Finnmark",
                         "ID_2": 24815,
                         "NAME_2": "Vardø",
@@ -40641,7 +40641,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24816,
                         "NAME_2": "Alvdal",
@@ -40667,7 +40667,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24817,
                         "NAME_2": "Åmot",
@@ -40690,7 +40690,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24818,
                         "NAME_2": "Åsnes",
@@ -40714,7 +40714,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24819,
                         "NAME_2": "Eidskog",
@@ -40737,7 +40737,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24820,
                         "NAME_2": "Elverum",
@@ -40762,7 +40762,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24821,
                         "NAME_2": "Engerdal",
@@ -40788,7 +40788,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24822,
                         "NAME_2": "Folldal",
@@ -40812,7 +40812,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24823,
                         "NAME_2": "Grue",
@@ -40835,7 +40835,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24824,
                         "NAME_2": "Hamar",
@@ -40858,7 +40858,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24825,
                         "NAME_2": "Kongsvinger",
@@ -40882,7 +40882,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24826,
                         "NAME_2": "Løten",
@@ -40907,7 +40907,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24827,
                         "NAME_2": "Nord-Odal",
@@ -40933,7 +40933,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24828,
                         "NAME_2": "Os",
@@ -40959,7 +40959,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24829,
                         "NAME_2": "Rendalen",
@@ -40986,7 +40986,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24830,
                         "NAME_2": "Ringsaker",
@@ -41010,7 +41010,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24831,
                         "NAME_2": "Sør-Odal",
@@ -41036,7 +41036,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24832,
                         "NAME_2": "Stange",
@@ -41063,7 +41063,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24833,
                         "NAME_2": "Stor-Elvdal",
@@ -41086,7 +41086,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24834,
                         "NAME_2": "Tolga",
@@ -41111,7 +41111,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24835,
                         "NAME_2": "Trysil",
@@ -41138,7 +41138,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24836,
                         "NAME_2": "Tynset",
@@ -41163,7 +41163,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2092,
+                        "ID_1": "04",
                         "NAME_1": "Hedmark",
                         "ID_2": 24837,
                         "NAME_2": "Våler",
@@ -41183,7 +41183,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24838,
                         "NAME_2": "Askøy",
@@ -41210,7 +41210,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24839,
                         "NAME_2": "Austevoll",
@@ -41238,7 +41238,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24840,
                         "NAME_2": "Austrheim",
@@ -41261,7 +41261,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24841,
                         "NAME_2": "Bergen",
@@ -41283,7 +41283,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24842,
                         "NAME_2": "Bømlo",
@@ -41308,7 +41308,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24843,
                         "NAME_2": "Eidfjord",
@@ -41334,7 +41334,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24844,
                         "NAME_2": "Etne",
@@ -41349,7 +41349,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24845,
                         "NAME_2": "Fedje",
@@ -41370,7 +41370,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24846,
                         "NAME_2": "Fitjar",
@@ -41393,7 +41393,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24847,
                         "NAME_2": "Fjell",
@@ -41416,7 +41416,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24848,
                         "NAME_2": "Fusa",
@@ -41443,7 +41443,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24849,
                         "NAME_2": "Granvin",
@@ -41466,7 +41466,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24850,
                         "NAME_2": "Jondal",
@@ -41492,7 +41492,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24851,
                         "NAME_2": "Kvam",
@@ -41536,7 +41536,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24852,
                         "NAME_2": "Kvinnherad",
@@ -41562,7 +41562,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24853,
                         "NAME_2": "Lindås",
@@ -41588,7 +41588,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24854,
                         "NAME_2": "Masfjorden",
@@ -41608,7 +41608,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24855,
                         "NAME_2": "Meland",
@@ -41633,7 +41633,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24856,
                         "NAME_2": "Modalen",
@@ -41661,7 +41661,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24857,
                         "NAME_2": "Odda",
@@ -41689,7 +41689,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24858,
                         "NAME_2": "Oelen",
@@ -41711,7 +41711,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24859,
                         "NAME_2": "Os",
@@ -41732,7 +41732,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24860,
                         "NAME_2": "Osterøy",
@@ -41747,7 +41747,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24861,
                         "NAME_2": "Øygarden",
@@ -41767,7 +41767,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24862,
                         "NAME_2": "Radøy",
@@ -41792,7 +41792,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24863,
                         "NAME_2": "Samnanger",
@@ -41813,7 +41813,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24864,
                         "NAME_2": "Stord",
@@ -41842,7 +41842,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24865,
                         "NAME_2": "Sund",
@@ -41864,7 +41864,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24866,
                         "NAME_2": "Sveio",
@@ -41884,7 +41884,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24867,
                         "NAME_2": "Tysnes",
@@ -41924,7 +41924,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24868,
                         "NAME_2": "Ullensvang",
@@ -41950,7 +41950,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24869,
                         "NAME_2": "Ulvik",
@@ -41984,7 +41984,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24870,
                         "NAME_2": "Vaksdal",
@@ -42009,7 +42009,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2093,
+                        "ID_1": "12",
                         "NAME_1": "Hordaland",
                         "ID_2": 24871,
                         "NAME_2": "Voss",
@@ -42031,7 +42031,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24872,
                         "NAME_2": "Ålesund",
@@ -42060,7 +42060,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24873,
                         "NAME_2": "Aukra",
@@ -42093,7 +42093,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24874,
                         "NAME_2": "Aure",
@@ -42113,7 +42113,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24875,
                         "NAME_2": "Averøy",
@@ -42136,7 +42136,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24876,
                         "NAME_2": "Eide",
@@ -42161,7 +42161,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24877,
                         "NAME_2": "Fræna",
@@ -42181,7 +42181,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24878,
                         "NAME_2": "Frei",
@@ -42201,7 +42201,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24879,
                         "NAME_2": "Giske",
@@ -42227,7 +42227,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24880,
                         "NAME_2": "Gjemnes",
@@ -42249,7 +42249,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24881,
                         "NAME_2": "Halsa",
@@ -42283,7 +42283,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24882,
                         "NAME_2": "Haram",
@@ -42304,7 +42304,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24883,
                         "NAME_2": "Hareid",
@@ -42332,7 +42332,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24884,
                         "NAME_2": "Herøy",
@@ -42347,7 +42347,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24885,
                         "NAME_2": "Kristiansund",
@@ -42367,7 +42367,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24886,
                         "NAME_2": "Midsund",
@@ -42391,7 +42391,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24887,
                         "NAME_2": "Molde",
@@ -42417,7 +42417,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24888,
                         "NAME_2": "Nesset",
@@ -42442,7 +42442,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24889,
                         "NAME_2": "Norddal",
@@ -42465,7 +42465,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24890,
                         "NAME_2": "Ørskog",
@@ -42489,7 +42489,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24891,
                         "NAME_2": "Ørsta",
@@ -42515,7 +42515,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24892,
                         "NAME_2": "Rauma",
@@ -42540,7 +42540,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24893,
                         "NAME_2": "Rindal",
@@ -42569,7 +42569,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24894,
                         "NAME_2": "Sande",
@@ -42589,7 +42589,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24895,
                         "NAME_2": "Sandøy",
@@ -42620,7 +42620,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24896,
                         "NAME_2": "Skodje",
@@ -42640,7 +42640,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24897,
                         "NAME_2": "Smøla",
@@ -42674,7 +42674,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24898,
                         "NAME_2": "Stordal",
@@ -42710,7 +42710,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24899,
                         "NAME_2": "Stranda",
@@ -42730,7 +42730,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24900,
                         "NAME_2": "Sula",
@@ -42757,7 +42757,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24901,
                         "NAME_2": "Sunndal",
@@ -42782,7 +42782,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24902,
                         "NAME_2": "Surnadal",
@@ -42805,7 +42805,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24903,
                         "NAME_2": "Sykkylven",
@@ -42829,7 +42829,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24904,
                         "NAME_2": "Tingvoll",
@@ -42856,7 +42856,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24905,
                         "NAME_2": "Tustna",
@@ -42877,7 +42877,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24906,
                         "NAME_2": "Ulstein",
@@ -42904,7 +42904,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2094,
+                        "ID_1": "15",
                         "NAME_1": "Møre og Romsdal",
                         "ID_2": 24907,
                         "NAME_2": "Vanylven",
@@ -42939,7 +42939,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24917,
                         "NAME_2": "Brønnøy",
@@ -42966,7 +42966,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24918,
                         "NAME_2": "Dønna",
@@ -42989,7 +42989,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24919,
                         "NAME_2": "Evenes",
@@ -43013,7 +43013,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24920,
                         "NAME_2": "Fauske",
@@ -43042,7 +43042,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24921,
                         "NAME_2": "Flakstad",
@@ -43077,7 +43077,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24922,
                         "NAME_2": "Gildeskål",
@@ -43101,7 +43101,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24923,
                         "NAME_2": "Grane",
@@ -43146,7 +43146,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24924,
                         "NAME_2": "Hadsel",
@@ -43177,7 +43177,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24925,
                         "NAME_2": "Hamarøy",
@@ -43201,7 +43201,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24926,
                         "NAME_2": "Hattfjelldal",
@@ -43236,7 +43236,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24927,
                         "NAME_2": "Hemnes",
@@ -43251,7 +43251,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24928,
                         "NAME_2": "Herøy",
@@ -43282,7 +43282,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24929,
                         "NAME_2": "Leirfjord",
@@ -43307,7 +43307,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24930,
                         "NAME_2": "Lødingen",
@@ -43336,7 +43336,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24931,
                         "NAME_2": "Lurøy",
@@ -43367,7 +43367,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24932,
                         "NAME_2": "Meløy",
@@ -43388,7 +43388,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24933,
                         "NAME_2": "Moskenes",
@@ -43415,7 +43415,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24934,
                         "NAME_2": "Narvik",
@@ -43453,7 +43453,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24935,
                         "NAME_2": "Nesna",
@@ -43486,7 +43486,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24936,
                         "NAME_2": "Øksnes",
@@ -43515,7 +43515,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24937,
                         "NAME_2": "Rana",
@@ -43538,7 +43538,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24938,
                         "NAME_2": "Rødøy",
@@ -43553,7 +43553,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24939,
                         "NAME_2": "Røst",
@@ -43578,7 +43578,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24940,
                         "NAME_2": "Saltdal",
@@ -43601,7 +43601,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24941,
                         "NAME_2": "Skjerstad",
@@ -43623,7 +43623,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24942,
                         "NAME_2": "Sømna",
@@ -43650,7 +43650,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24943,
                         "NAME_2": "Sørfold",
@@ -43691,7 +43691,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24944,
                         "NAME_2": "Sortland",
@@ -43731,7 +43731,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24945,
                         "NAME_2": "Steigen",
@@ -43768,7 +43768,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24946,
                         "NAME_2": "Tjeldsund",
@@ -43783,7 +43783,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24947,
                         "NAME_2": "Træna",
@@ -43813,7 +43813,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24948,
                         "NAME_2": "Tysfjord",
@@ -43828,7 +43828,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24949,
                         "NAME_2": "Værøy",
@@ -43869,7 +43869,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24950,
                         "NAME_2": "Vågan",
@@ -43898,7 +43898,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24951,
                         "NAME_2": "Vefsn",
@@ -43918,7 +43918,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24952,
                         "NAME_2": "Vega",
@@ -43939,7 +43939,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24953,
                         "NAME_2": "Vestvågøy",
@@ -43962,7 +43962,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2095,
+                        "ID_1": "18",
                         "NAME_1": "Nordland",
                         "ID_2": 24954,
                         "NAME_2": "Vevelstad",
@@ -43987,7 +43987,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24955,
                         "NAME_2": "Flatanger",
@@ -44014,7 +44014,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24965,
                         "NAME_2": "Mandalseid",
@@ -44038,7 +44038,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24966,
                         "NAME_2": "Meråker",
@@ -44060,7 +44060,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24967,
                         "NAME_2": "Mosvik",
@@ -44096,7 +44096,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24968,
                         "NAME_2": "Nærøy",
@@ -44136,7 +44136,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24969,
                         "NAME_2": "Namsos",
@@ -44160,7 +44160,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24970,
                         "NAME_2": "Namsskogan",
@@ -44188,7 +44188,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24971,
                         "NAME_2": "Overhalla",
@@ -44211,7 +44211,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24972,
                         "NAME_2": "Røyrvik",
@@ -44236,7 +44236,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24973,
                         "NAME_2": "Snåsa",
@@ -44263,7 +44263,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24974,
                         "NAME_2": "Steinkjer",
@@ -44287,7 +44287,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24975,
                         "NAME_2": "Stjørdal",
@@ -44313,7 +44313,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24976,
                         "NAME_2": "Verdal",
@@ -44339,7 +44339,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24977,
                         "NAME_2": "Verran",
@@ -44359,7 +44359,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2096,
+                        "ID_1": "17",
                         "NAME_1": "Nord-Trøndelag",
                         "ID_2": 24978,
                         "NAME_2": "Vikna",
@@ -44383,7 +44383,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24979,
                         "NAME_2": "Dovre",
@@ -44405,7 +44405,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24980,
                         "NAME_2": "Etnedal",
@@ -44431,7 +44431,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24981,
                         "NAME_2": "Gausdal",
@@ -44456,7 +44456,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24982,
                         "NAME_2": "Gjøvik",
@@ -44483,7 +44483,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24983,
                         "NAME_2": "Gran",
@@ -44505,7 +44505,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24984,
                         "NAME_2": "Jevnaker",
@@ -44532,7 +44532,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24985,
                         "NAME_2": "Lesja",
@@ -44556,7 +44556,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24986,
                         "NAME_2": "Lillehammer",
@@ -44580,7 +44580,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24987,
                         "NAME_2": "Lom",
@@ -44605,7 +44605,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24988,
                         "NAME_2": "Lunner",
@@ -44632,7 +44632,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24989,
                         "NAME_2": "Nord-Aurdal",
@@ -44655,7 +44655,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24990,
                         "NAME_2": "Nord-Fron",
@@ -44681,7 +44681,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24991,
                         "NAME_2": "Nordre Land",
@@ -44707,7 +44707,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24992,
                         "NAME_2": "Østre Toten",
@@ -44731,7 +44731,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24993,
                         "NAME_2": "Øyer",
@@ -44757,7 +44757,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24994,
                         "NAME_2": "Øystre Slidre",
@@ -44780,7 +44780,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24995,
                         "NAME_2": "Ringebu",
@@ -44804,7 +44804,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24996,
                         "NAME_2": "Sel",
@@ -44830,7 +44830,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24997,
                         "NAME_2": "Skjåk",
@@ -44855,7 +44855,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24998,
                         "NAME_2": "Søndre Land",
@@ -44882,7 +44882,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 24999,
                         "NAME_2": "Sør-Aurdal",
@@ -44908,7 +44908,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 25000,
                         "NAME_2": "Sør-Fron",
@@ -44934,7 +44934,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 25001,
                         "NAME_2": "Vågå",
@@ -44961,7 +44961,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 25002,
                         "NAME_2": "Vang",
@@ -44984,7 +44984,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 25003,
                         "NAME_2": "Vestre Slidre",
@@ -45007,7 +45007,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2097,
+                        "ID_1": "05",
                         "NAME_1": "Oppland",
                         "ID_2": 25004,
                         "NAME_2": "Vestre Toten",
@@ -45037,7 +45037,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2098,
+                        "ID_1": "03",
                         "NAME_1": "Oslo",
                         "ID_2": 25005,
                         "NAME_2": "Oslo",
@@ -45061,7 +45061,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25006,
                         "NAME_2": "Bjerkreim",
@@ -45081,7 +45081,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25007,
                         "NAME_2": "Bokn",
@@ -45106,7 +45106,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25008,
                         "NAME_2": "Eigersund",
@@ -45134,7 +45134,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25009,
                         "NAME_2": "Finnøy",
@@ -45159,7 +45159,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25010,
                         "NAME_2": "Forsand",
@@ -45184,7 +45184,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25011,
                         "NAME_2": "Gjesdal",
@@ -45210,7 +45210,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25012,
                         "NAME_2": "Hå",
@@ -45234,7 +45234,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25013,
                         "NAME_2": "Haugesund",
@@ -45271,7 +45271,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25014,
                         "NAME_2": "Hjelmeland",
@@ -45299,7 +45299,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25015,
                         "NAME_2": "Karmøy",
@@ -45323,7 +45323,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25016,
                         "NAME_2": "Klepp",
@@ -45338,7 +45338,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25017,
                         "NAME_2": "Kvitsøy",
@@ -45361,7 +45361,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25018,
                         "NAME_2": "Lund",
@@ -45382,7 +45382,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25019,
                         "NAME_2": "Randaberg",
@@ -45409,7 +45409,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25020,
                         "NAME_2": "Rennesøy",
@@ -45434,7 +45434,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25021,
                         "NAME_2": "Sandnes",
@@ -45458,7 +45458,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25022,
                         "NAME_2": "Sauda",
@@ -45481,7 +45481,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25023,
                         "NAME_2": "Sokndal",
@@ -45504,7 +45504,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25024,
                         "NAME_2": "Sola",
@@ -45528,7 +45528,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25025,
                         "NAME_2": "Stavanger",
@@ -45550,7 +45550,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25026,
                         "NAME_2": "Strand",
@@ -45585,7 +45585,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25027,
                         "NAME_2": "Suldal",
@@ -45609,7 +45609,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25028,
                         "NAME_2": "Time",
@@ -45638,7 +45638,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25029,
                         "NAME_2": "Tysvær",
@@ -45653,7 +45653,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25030,
                         "NAME_2": "Utsira",
@@ -45678,7 +45678,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2099,
+                        "ID_1": "11",
                         "NAME_1": "Rogaland",
                         "ID_2": 25031,
                         "NAME_2": "Vindafjord",
@@ -45701,7 +45701,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25032,
                         "NAME_2": "Årdal",
@@ -45737,7 +45737,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25033,
                         "NAME_2": "Askvoll",
@@ -45762,7 +45762,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25034,
                         "NAME_2": "Aurland",
@@ -45789,7 +45789,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25035,
                         "NAME_2": "Balestrand",
@@ -45823,7 +45823,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25036,
                         "NAME_2": "Bremanger",
@@ -45848,7 +45848,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25037,
                         "NAME_2": "Eid",
@@ -45871,7 +45871,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25038,
                         "NAME_2": "Fjaler",
@@ -45901,7 +45901,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25039,
                         "NAME_2": "Flora",
@@ -45925,7 +45925,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25040,
                         "NAME_2": "Førde",
@@ -45950,7 +45950,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25041,
                         "NAME_2": "Gaular",
@@ -45975,7 +45975,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25042,
                         "NAME_2": "Gloppen",
@@ -46009,7 +46009,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25043,
                         "NAME_2": "Gulen",
@@ -46033,7 +46033,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25044,
                         "NAME_2": "Hornindal",
@@ -46068,7 +46068,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25045,
                         "NAME_2": "Høyanger",
@@ -46090,7 +46090,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25046,
                         "NAME_2": "Hyllestad",
@@ -46115,7 +46115,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25047,
                         "NAME_2": "Jølster",
@@ -46141,7 +46141,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25048,
                         "NAME_2": "Lærdal",
@@ -46163,7 +46163,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25049,
                         "NAME_2": "Leikanger",
@@ -46191,7 +46191,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25050,
                         "NAME_2": "Luster",
@@ -46221,7 +46221,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25051,
                         "NAME_2": "Naustdal",
@@ -46243,7 +46243,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25052,
                         "NAME_2": "Selje",
@@ -46266,7 +46266,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2100,
+                        "ID_1": "14",
                         "NAME_1": "Sogn og Fjordane",
                         "ID_2": 25053,
                         "NAME_2": "Sogndal",
@@ -46298,7 +46298,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25063,
                         "NAME_2": "Hitra",
@@ -46322,7 +46322,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25064,
                         "NAME_2": "Holtålen",
@@ -46344,7 +46344,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25065,
                         "NAME_2": "Klæbu",
@@ -46367,7 +46367,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25066,
                         "NAME_2": "Malvik",
@@ -46391,7 +46391,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25067,
                         "NAME_2": "Meldal",
@@ -46418,7 +46418,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25068,
                         "NAME_2": "Melhus",
@@ -46445,7 +46445,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25069,
                         "NAME_2": "Midtre Gauldal",
@@ -46472,7 +46472,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25070,
                         "NAME_2": "Oppdal",
@@ -46499,7 +46499,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25071,
                         "NAME_2": "Orkdal",
@@ -46520,7 +46520,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25072,
                         "NAME_2": "Ørland",
@@ -46543,7 +46543,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25073,
                         "NAME_2": "Osen",
@@ -46567,7 +46567,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25074,
                         "NAME_2": "Rennebu",
@@ -46591,7 +46591,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25075,
                         "NAME_2": "Rissa",
@@ -46614,7 +46614,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25076,
                         "NAME_2": "Roan",
@@ -46638,7 +46638,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25077,
                         "NAME_2": "Røros",
@@ -46666,7 +46666,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25078,
                         "NAME_2": "Selbu",
@@ -46688,7 +46688,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25079,
                         "NAME_2": "Skaun",
@@ -46711,7 +46711,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25080,
                         "NAME_2": "Snillfjord",
@@ -46735,7 +46735,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25081,
                         "NAME_2": "Trondheim",
@@ -46759,7 +46759,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2101,
+                        "ID_1": "16",
                         "NAME_1": "Sør-Trøndelag",
                         "ID_2": 25082,
                         "NAME_2": "Tydal",
@@ -46783,7 +46783,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2102,
+                        "ID_1": "08",
                         "NAME_1": "Telemark",
                         "ID_2": 25083,
                         "NAME_2": "Bamble",
@@ -46807,7 +46807,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2102,
+                        "ID_1": "08",
                         "NAME_1": "Telemark",
                         "ID_2": 25084,
                         "NAME_2": "Bø",
@@ -46833,7 +46833,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2102,
+                        "ID_1": "08",
                         "NAME_1": "Telemark",
                         "ID_2": 25085,
                         "NAME_2": "Drangedal",
@@ -46858,7 +46858,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2102,
+                        "ID_1": "08",
                         "NAME_1": "Telemark",
                         "ID_2": 25086,
                         "NAME_2": "Fyresdal",
@@ -46880,7 +46880,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2102,
+                        "ID_1": "08",
                         "NAME_1": "Telemark",
                         "ID_2": 25087,
                         "NAME_2": "Hjartdal",
@@ -46904,7 +46904,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2102,
+                        "ID_1": "08",
                         "NAME_1": "Telemark",
                         "ID_2": 25088,
                         "NAME_2": "Kragerø",
@@ -46930,7 +46930,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2102,
+                        "ID_1": "08",
                         "NAME_1": "Telemark",
                         "ID_2": 25089,
                         "NAME_2": "Kviteseid",
@@ -46955,7 +46955,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2102,
+                        "ID_1": "08",
                         "NAME_1": "Telemark",
                         "ID_2": 25090,
                         "NAME_2": "Nissedal",
@@ -46979,7 +46979,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2102,
+                        "ID_1": "08",
                         "NAME_1": "Telemark",
                         "ID_2": 25091,
                         "NAME_2": "Nome",
@@ -47005,7 +47005,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2102,
+                        "ID_1": "08",
                         "NAME_1": "Telemark",
                         "ID_2": 25092,
                         "NAME_2": "Notodden",
@@ -47029,7 +47029,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2102,
+                        "ID_1": "08",
                         "NAME_1": "Telemark",
                         "ID_2": 25093,
                         "NAME_2": "Porsgrunn",
@@ -47053,7 +47053,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2102,
+                        "ID_1": "08",
                         "NAME_1": "Telemark",
                         "ID_2": 25094,
                         "NAME_2": "Sauherad",
@@ -47079,7 +47079,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2102,
+                        "ID_1": "08",
                         "NAME_1": "Telemark",
                         "ID_2": 25095,
                         "NAME_2": "Seljord",
@@ -47103,7 +47103,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2102,
+                        "ID_1": "08",
                         "NAME_1": "Telemark",
                         "ID_2": 25096,
                         "NAME_2": "Siljan",
@@ -47129,7 +47129,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2102,
+                        "ID_1": "08",
                         "NAME_1": "Telemark",
                         "ID_2": 25097,
                         "NAME_2": "Skien",
@@ -47155,7 +47155,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2102,
+                        "ID_1": "08",
                         "NAME_1": "Telemark",
                         "ID_2": 25098,
                         "NAME_2": "Tinn",
@@ -47180,7 +47180,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2102,
+                        "ID_1": "08",
                         "NAME_1": "Telemark",
                         "ID_2": 25099,
                         "NAME_2": "Tokke",
@@ -47207,7 +47207,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2102,
+                        "ID_1": "08",
                         "NAME_1": "Telemark",
                         "ID_2": 25100,
                         "NAME_2": "Vinje",
@@ -47232,7 +47232,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25101,
                         "NAME_2": "Balsfjord",
@@ -47257,7 +47257,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25102,
                         "NAME_2": "Bardu",
@@ -47280,7 +47280,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25103,
                         "NAME_2": "Berg",
@@ -47308,7 +47308,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25104,
                         "NAME_2": "Bjarkøy",
@@ -47337,7 +47337,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25105,
                         "NAME_2": "Dyrøy",
@@ -47360,7 +47360,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25106,
                         "NAME_2": "Gratangen",
@@ -47390,7 +47390,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25107,
                         "NAME_2": "Harstad",
@@ -47417,7 +47417,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25108,
                         "NAME_2": "Ibestad",
@@ -47440,7 +47440,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25109,
                         "NAME_2": "Kåfjord",
@@ -47500,7 +47500,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25110,
                         "NAME_2": "Karlsøy",
@@ -47525,7 +47525,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25111,
                         "NAME_2": "Kvæfjord",
@@ -47556,7 +47556,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25112,
                         "NAME_2": "Kvænangen",
@@ -47580,7 +47580,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25113,
                         "NAME_2": "Lavangen",
@@ -47611,7 +47611,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25114,
                         "NAME_2": "Lenvik",
@@ -47633,7 +47633,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25115,
                         "NAME_2": "Lyngen",
@@ -47659,7 +47659,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25116,
                         "NAME_2": "Målselv",
@@ -47691,7 +47691,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25117,
                         "NAME_2": "Nordreisa",
@@ -47715,7 +47715,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25118,
                         "NAME_2": "Salangen",
@@ -47739,7 +47739,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25119,
                         "NAME_2": "Skånland",
@@ -47777,7 +47777,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25120,
                         "NAME_2": "Skjervøy",
@@ -47802,7 +47802,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25121,
                         "NAME_2": "Sørreisa",
@@ -47828,7 +47828,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25122,
                         "NAME_2": "Storfjord",
@@ -47850,7 +47850,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25123,
                         "NAME_2": "Torsken",
@@ -47873,7 +47873,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25124,
                         "NAME_2": "Tranøy",
@@ -47941,7 +47941,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2103,
+                        "ID_1": "19",
                         "NAME_1": "Troms",
                         "ID_2": 25125,
                         "NAME_2": "Tromsø",
@@ -47965,7 +47965,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2104,
+                        "ID_1": "10",
                         "NAME_1": "Vest-Agder",
                         "ID_2": 25126,
                         "NAME_2": "Åseral",
@@ -47990,7 +47990,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2104,
+                        "ID_1": "10",
                         "NAME_1": "Vest-Agder",
                         "ID_2": 25127,
                         "NAME_2": "Audnedal",
@@ -48013,7 +48013,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2104,
+                        "ID_1": "10",
                         "NAME_1": "Vest-Agder",
                         "ID_2": 25128,
                         "NAME_2": "Farsund",
@@ -48044,7 +48044,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2104,
+                        "ID_1": "10",
                         "NAME_1": "Vest-Agder",
                         "ID_2": 25129,
                         "NAME_2": "Flekkefjord",
@@ -48067,7 +48067,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2104,
+                        "ID_1": "10",
                         "NAME_1": "Vest-Agder",
                         "ID_2": 25130,
                         "NAME_2": "Hægebostad",
@@ -48092,7 +48092,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2104,
+                        "ID_1": "10",
                         "NAME_1": "Vest-Agder",
                         "ID_2": 25131,
                         "NAME_2": "Kristiansand",
@@ -48119,7 +48119,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2104,
+                        "ID_1": "10",
                         "NAME_1": "Vest-Agder",
                         "ID_2": 25132,
                         "NAME_2": "Kvinesdal",
@@ -48143,7 +48143,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2104,
+                        "ID_1": "10",
                         "NAME_1": "Vest-Agder",
                         "ID_2": 25133,
                         "NAME_2": "Lindesnes",
@@ -48168,7 +48168,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2104,
+                        "ID_1": "10",
                         "NAME_1": "Vest-Agder",
                         "ID_2": 25134,
                         "NAME_2": "Lyngdal",
@@ -48191,7 +48191,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2104,
+                        "ID_1": "10",
                         "NAME_1": "Vest-Agder",
                         "ID_2": 25135,
                         "NAME_2": "Mandal",
@@ -48217,7 +48217,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2104,
+                        "ID_1": "10",
                         "NAME_1": "Vest-Agder",
                         "ID_2": 25136,
                         "NAME_2": "Marnardal",
@@ -48246,7 +48246,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2104,
+                        "ID_1": "10",
                         "NAME_1": "Vest-Agder",
                         "ID_2": 25137,
                         "NAME_2": "Sirdal",
@@ -48270,7 +48270,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2104,
+                        "ID_1": "10",
                         "NAME_1": "Vest-Agder",
                         "ID_2": 25138,
                         "NAME_2": "Søgne",
@@ -48293,7 +48293,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2104,
+                        "ID_1": "10",
                         "NAME_1": "Vest-Agder",
                         "ID_2": 25139,
                         "NAME_2": "Songdalen",
@@ -48319,7 +48319,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2104,
+                        "ID_1": "10",
                         "NAME_1": "Vest-Agder",
                         "ID_2": 25140,
                         "NAME_2": "Vennesla",
@@ -48344,7 +48344,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2105,
+                        "ID_1": "07",
                         "NAME_1": "Vestfold",
                         "ID_2": 25141,
                         "NAME_2": "Andebu",
@@ -48366,7 +48366,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2105,
+                        "ID_1": "07",
                         "NAME_1": "Vestfold",
                         "ID_2": 25142,
                         "NAME_2": "Borre",
@@ -48393,7 +48393,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2105,
+                        "ID_1": "07",
                         "NAME_1": "Vestfold",
                         "ID_2": 25143,
                         "NAME_2": "Hof",
@@ -48417,7 +48417,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2105,
+                        "ID_1": "07",
                         "NAME_1": "Vestfold",
                         "ID_2": 25144,
                         "NAME_2": "Holmestrand",
@@ -48442,7 +48442,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2105,
+                        "ID_1": "07",
                         "NAME_1": "Vestfold",
                         "ID_2": 25145,
                         "NAME_2": "Lardal",
@@ -48467,7 +48467,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2105,
+                        "ID_1": "07",
                         "NAME_1": "Vestfold",
                         "ID_2": 25146,
                         "NAME_2": "Larvik",
@@ -48489,7 +48489,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2105,
+                        "ID_1": "07",
                         "NAME_1": "Vestfold",
                         "ID_2": 25147,
                         "NAME_2": "Nøtterøy",
@@ -48516,7 +48516,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2105,
+                        "ID_1": "07",
                         "NAME_1": "Vestfold",
                         "ID_2": 25148,
                         "NAME_2": "Ramnes",
@@ -48540,7 +48540,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2105,
+                        "ID_1": "07",
                         "NAME_1": "Vestfold",
                         "ID_2": 25149,
                         "NAME_2": "Sande",
@@ -48563,7 +48563,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2105,
+                        "ID_1": "07",
                         "NAME_1": "Vestfold",
                         "ID_2": 25150,
                         "NAME_2": "Sandefjord",
@@ -48587,7 +48587,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2105,
+                        "ID_1": "07",
                         "NAME_1": "Vestfold",
                         "ID_2": 25151,
                         "NAME_2": "Stokke",
@@ -48611,7 +48611,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2105,
+                        "ID_1": "07",
                         "NAME_1": "Vestfold",
                         "ID_2": 25152,
                         "NAME_2": "Svelvik",
@@ -48631,7 +48631,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2105,
+                        "ID_1": "07",
                         "NAME_1": "Vestfold",
                         "ID_2": 25153,
                         "NAME_2": "Tjøme",
@@ -48662,7 +48662,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2105,
+                        "ID_1": "07",
                         "NAME_1": "Vestfold",
                         "ID_2": 25154,
                         "NAME_2": "Tønsberg",
@@ -48686,7 +48686,7 @@
                     "properties": {
                         "ISO": "NOR",
                         "NAME_0": "Norway",
-                        "ID_1": 2105,
+                        "ID_1": "07",
                         "NAME_1": "Vestfold",
                         "ID_2": 25155,
                         "NAME_2": "Vaale",
