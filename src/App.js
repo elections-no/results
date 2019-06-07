@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./App.css";
 import * as d3 from "d3";
-import Norway from './Norway';
+import Norway from "./Norway";
 
 class ElectionTypes extends React.Component {
   state = {
@@ -157,7 +157,6 @@ class BarChart extends React.Component {
   }
 }
 
-
 class App extends React.Component {
   state = {
     data: [12, 5, 6, 6, 9, 10],
@@ -167,12 +166,32 @@ class App extends React.Component {
     map_width: 800,
     map_height: 450
   };
+
+  handleClick = (e, countyNumber) => {
+    console.log("Click happened :", countyNumber);
+  };
+
+  handleMouseOver = (e, text) => {
+    console.log("MouseOver happened :", text);
+  };
+
+  handleMouseOut = e => {
+    console.log("MouseOut happened");
+  };
+
   render() {
     return (
       <div className="App">
         <header className="App-header">
           <p>Election Results for 2019</p>
-          <Norway id="simple" width={2 * this.state.map_width} height={2 * this.state.map_height} />
+          <Norway
+            id="simple"
+            width={2 * this.state.map_width}
+            height={2 * this.state.map_height}
+            onClick={this.handleClick}
+            onMouseOver={this.handleMouseOver}
+            onMouseOut={this.handleMouseOut}
+          />
           <BarChart data={this.state.data} width={this.state.width} height={this.state.height} />
           <ElectionTypes />
           <ElectionEvents />

@@ -17,6 +17,8 @@ class Norway extends React.Component {
 
     this.handleCountyClick = this.handleCountyClick.bind(this);
     this.handleClick = this.handleClick.bind(this);
+    this.showCountyTooltip = this.showCountyTooltip.bind(this);
+    this.hideCountyTooltip = this.hideCountyTooltip.bind(this);
   }
   projection() {
     const { width, height } = this.props;
@@ -51,7 +53,7 @@ class Norway extends React.Component {
     selection.classed("active", true);
   }
 
-  handleCountyClick(countyIndex) {
+  handleCountyClick(countyIndex, event) {
     this.setClickHandled();
 
     const was_selected = this.isCountySelected(countyIndex);
@@ -66,8 +68,8 @@ class Norway extends React.Component {
       this.zoomOut();
     }
 
-    console.log("Clicked on county: ", this.getCountyName(countyIndex));
-    console.log("Clicked on county number: ", this.getCountyNumber(countyIndex));
+    const { onClick } = this.props;
+    onClick(event, this.getCountyNumber(countyIndex));
   }
 
   zoomIn(view) {
@@ -107,16 +109,6 @@ class Norway extends React.Component {
     });
   }
 
-  handleClick() {
-    if (this.isClickHandled()) {
-      this.resetClickHandled();
-    } else {
-      console.log("Clicked!");
-      this.deselectAllCounties();
-      this.zoomOut();
-    }
-  }
-
   componentDidMount() {
     this.setState({
       countiesCollection: feature(counties, counties.objects.NOR_adm1),
@@ -131,27 +123,68 @@ class Norway extends React.Component {
     return "" + id + "-" + kind + "-" + enumerator;
   }
 
+  handleClick(event) {
+    if (this.isClickHandled()) {
+      this.resetClickHandled();
+    } else {
+      this.deselectAllCounties();
+      this.zoomOut();
+    }
+  }
+
+  showCountyTooltip(countyIndex, event) {
+    d3.select(".tooltip")
+      .transition()
+      .duration(200)
+      .style("opacity", 0.9);
+
+    d3.select(".tooltip")
+      .html(this.getCountyName(countyIndex))
+      .style("left", event.screenX + "px")
+      .style("top", event.screenY + "px");
+
+    // Propagate event
+    const { onMouseOver } = this.props;
+    onMouseOver(event, this.getCountyName(countyIndex));
+  }
+
+  hideCountyTooltip(countyIndex, event) {
+    d3.select(".tooltip")
+      .transition()
+      .duration(500)
+      .style("opacity", 0);
+
+    // Propagate event
+    const { onMouseOut } = this.props;
+    onMouseOut(event);
+  }
+
   render() {
     const { id, width, height } = this.props;
     return (
-      <svg id={id} width={width} height={height} viewBox={"0 0 " + width + " " + height} onClick={() => this.handleClick()}>
-        <g className="counties">
-          {this.state.counties.map((d, i) => (
-            <path
-              id={this.makeId("county", i)}
-              key={`county-${i}`}
-              d={geoPath().projection(this.projection())(d)}
-              className="county"
-              onClick={() => this.handleCountyClick(i)}
-            />
-          ))}
-        </g>
-        <g className="municipalities">
-          {this.state.municipalities.map((d, i) => (
-            <path key={`municipality-${i}`} d={geoPath().projection(this.projection())(d)} className="municipality" />
-          ))}
-        </g>
-      </svg>
+      <div>
+        <svg id={id} width={width} height={height} viewBox={"0 0 " + width + " " + height} onClick={e => this.handleClick(e)}>
+          <g className="counties">
+            {this.state.counties.map((d, i) => (
+              <path
+                id={this.makeId("county", i)}
+                key={`county-${i}`}
+                d={geoPath().projection(this.projection())(d)}
+                className="county"
+                onClick={e => this.handleCountyClick(i, e)}
+                onMouseOver={e => this.showCountyTooltip(i, e)}
+                onMouseOut={e => this.hideCountyTooltip(i, e)}
+              />
+            ))}
+          </g>
+          <g className="municipalities">
+            {this.state.municipalities.map((d, i) => (
+              <path key={`municipality-${i}`} d={geoPath().projection(this.projection())(d)} className="municipality" />
+            ))}
+          </g>
+        </svg>
+        <div className="tooltip" />
+      </div>
     );
   }
 }
