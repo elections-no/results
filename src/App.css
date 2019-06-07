@@ -23,28 +23,28 @@
   color: #61dafb;
 }
 
-.county.active{
-  fill:darkcyan;
+.county.active {
+  fill: darkcyan;
   stroke-width: 0.2;
 }
 
-.county{
+.county {
   transition: fill 1.5s ease-out;
-  fill:darkgray;
-  stroke:darkcyan;
+  fill: darkgray;
+  stroke: darkcyan;
   stroke-width: 1.2;
-  pointer-events:all;
+  pointer-events: all;
 }
-.county:hover{
-  fill:whitesmoke;
-  stroke:darkcyan;
+.county:hover {
+  fill: whitesmoke;
+  stroke: darkcyan;
 }
 
-.municipality{
-  fill:none;
-  stroke:gray;
+.municipality {
+  fill: none;
+  stroke: gray;
   stroke-width: 0.5;
-  pointer-events:none;
+  pointer-events: none;
 }
 
 @keyframes App-logo-spin {
