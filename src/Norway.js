@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import * as d3 from "d3";
 import { geoMercator, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
@@ -132,16 +133,34 @@ class Norway extends React.Component {
     }
   }
 
+  getAbsoluteBoundingBoxCenter(countyIndex) {
+    const selection = this.getCounty(countyIndex);
+    const box = this.getBoundingBox(selection);
+    const point = this.getBoundingBoxCenter(box);
+
+    const parentRect = ReactDOM.findDOMNode(this).getBoundingClientRect();
+
+    var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    var scrollLeft = document.documentElement.scrollLeft || document.body.scrollLeft;
+
+    return {
+      x: parentRect.x + point[0] + scrollLeft,
+      y: parentRect.y + point[1] + scrollTop
+    };
+  }
+
   showCountyTooltip(countyIndex, event) {
     d3.select(".tooltip")
       .transition()
       .duration(200)
       .style("opacity", 0.9);
 
+    const { x, y } = this.getAbsoluteBoundingBoxCenter(countyIndex);
+
     d3.select(".tooltip")
       .html(this.getCountyName(countyIndex))
-      .style("left", event.screenX + "px")
-      .style("top", event.screenY + "px");
+      .style("left", x + "px")
+      .style("top", y + "px");
 
     // Propagate event
     const { onMouseOver } = this.props;
