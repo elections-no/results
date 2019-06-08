@@ -4638,7 +4638,7 @@
           "properties": {
             "ISO": "NOR",
             "NAME_0": "Norway",
-            "ID_1": 15,
+            "ID_1": "15",
             "NAME_1": "Møre og Romsdal",
             "VARNAME_1": "Moere og Romsdal fylk|Møre|Romsdal",
             "HASC_1": "NO.MR",
