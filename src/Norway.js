@@ -69,13 +69,11 @@ class Norway extends React.Component {
       this.selectCounty(selection);
       const { x, y, width, height } = this.getBoundingBox(selection);
       this.zoomIn(this.makeViewBoxString(x, y, width, height));
-    } else {
-      this.zoomOut();
     }
 
     const { onClick } = this.props;
     onClick(event, this.getCountyNumber(countyIndex), this.getCountyName(countyIndex));
-  }
+  };
 
   deselectAllCounties() {
     d3.selectAll("path").classed("active", (d, i, nodes) => {
@@ -83,27 +81,33 @@ class Norway extends React.Component {
       node.classed("active", false);
     });
   }
-  
+
   getSVG() {
     return d3.select("#" + this.props.id);
   }
 
   zoomIn(view) {
     const svg = this.getSVG();
-    svg.classed("zoomed", true);
+    svg.classed("county_zoomed", true);
     svg.attr("viewBox", view);
     svg.selectAll(".municipality").style("pointer-events", "all");
     svg.selectAll(".county").style("pointer-events", "none");
+
+    svg.selectAll(".municipality").classed("county_zoomed", true);
+    svg.selectAll(".county").classed("county_zoomed", true);
   }
 
   zoomOut() {
     const { width, height } = this.props;
     let view = this.makeViewBoxString(0, 0, width, height);
     const svg = this.getSVG();
-    svg.classed("zoomed", false);
+    svg.classed("county_zoomed", false);
     svg.attr("viewBox", view);
     svg.selectAll(".municipality").style("pointer-events", "none");
     svg.selectAll(".county").style("pointer-events", "all");
+
+    svg.selectAll(".municipality").classed("county_zoomed", false);
+    svg.selectAll(".county").classed("county_zoomed", false);
   }
 
   setClickHandled() {
@@ -132,14 +136,14 @@ class Norway extends React.Component {
     return "" + id + "-" + kind + "-" + enumerator;
   }
 
-  handleClick = (event) => {
+  handleClick = event => {
     if (this.isClickHandled()) {
       this.resetClickHandled();
     } else {
       this.deselectAllCounties();
       this.zoomOut();
     }
-  }
+  };
 
   getCenter(selection) {
     const box = this.getBoundingBox(selection);
@@ -186,7 +190,7 @@ class Norway extends React.Component {
     // Propagate event
     const { onMouseOver } = this.props;
     onMouseOver(event, this.getCountyName(countyIndex));
-  }
+  };
 
   hideTooltip(event) {
     d3.select(".tooltip")
@@ -201,7 +205,7 @@ class Norway extends React.Component {
   hideCountyTooltip = (countyIndex, event) => {
     this.hideTooltip(event);
     console.log("Hide Tooltip : " + this.getCountyName(countyIndex));
-  }
+  };
 
   /**
    *  Municipality
@@ -216,20 +220,55 @@ class Norway extends React.Component {
     return d3.select(key);
   }
 
-  getMunicipalityNumber(municipalityIndex) {
+  getMunicipalityCountyNumber(municipalityIndex) {
     return this.state.municipalities[municipalityIndex].properties.ID_1;
+  }
+
+  getMunicipalityNumber(municipalityIndex) {
+    return this.state.municipalities[municipalityIndex].properties.ID_2;
   }
 
   getMunicipalityName(municipalityIndex) {
     return this.state.municipalities[municipalityIndex].properties.NAME_2;
   }
 
-  handleMunicipalityClick = (municipalityIndex, event) => {
-    console.log("Clicked : " + this.getMunicipalityName(municipalityIndex));
-
-    const { onClick } = this.props;
-    onClick(event, this.getMunicipalityNumber(municipalityIndex), this.getMunicipalityName(municipalityIndex));
+  getCountyByNumber(countyNumber) {
+    const countyIndex = this.getCountyIndexFromCountyNumber(countyNumber);
+    return countyIndex >= 0 ? this.getCounty(countyIndex) : undefined;
   }
+
+  getCountyIndexFromCountyNumber(countyNumber) {
+    let countyIndex = -1;
+    this.state.counties.filter((c, i) => {
+      if (c.properties.ID_1 === countyNumber) {
+        countyIndex = i;
+        return true;
+      }
+      return false;
+    });
+    return countyIndex;
+  }
+
+  getSelectedCountyFromMunicipalityIndex(municipalityIndex) {
+    const countyNumber = this.getMunicipalityCountyNumber(municipalityIndex);
+    return this.getCountyByNumber(countyNumber);
+  }
+
+  handleMunicipalityClick = (municipalityIndex, event) => {
+    const county = this.getSelectedCountyFromMunicipalityIndex(municipalityIndex);
+
+    if (county === undefined) {
+      console.error("ERROR: No such county Found : ", this.getMunicipalityCountyNumber(municipalityIndex));
+    } else if (county.classed("active")) {
+      this.setClickHandled();
+      const { onClick } = this.props;
+      onClick(event, this.getMunicipalityCountyNumber(municipalityIndex), this.getMunicipalityName(municipalityIndex));
+    } else {
+      const countyNumber = this.getMunicipalityCountyNumber(municipalityIndex);
+      const countyIndex = this.getCountyIndexFromCountyNumber(countyNumber);
+      this.handleCountyClick(countyIndex, event);
+    }
+  };
 
   showMunicipalityTooltip = (municipalityIndex, event) => {
     this.fadeInTooltip();
@@ -244,12 +283,12 @@ class Norway extends React.Component {
     onMouseOver(event, this.getMunicipalityName(municipalityIndex));
 
     console.log("Show Tooltip : " + this.getMunicipalityName(municipalityIndex));
-  }
+  };
 
   hideMunicipalityTooltip = (municipalityIndex, event) => {
     this.hideTooltip(event);
     console.log("Hide Tooltip : " + this.getMunicipalityName(municipalityIndex));
-  }
+  };
 
   render() {
     const { id, width, height } = this.props;

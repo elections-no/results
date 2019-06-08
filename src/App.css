@@ -28,6 +28,10 @@
   stroke-width: 0.2;
 }
 
+.county.county_zoomed {
+  stroke-width: 0;
+}
+
 .county {
   transition: fill 1.5s ease-out;
   fill: darkgray;
@@ -35,6 +39,7 @@
   stroke-width: 1.2;
   pointer-events: all;
 }
+
 .county:hover {
   fill: whitesmoke;
   stroke: darkcyan;
@@ -45,6 +50,10 @@
   stroke: gray;
   stroke-width: 0.5;
   pointer-events: none;
+}
+
+.municipality.county_zoomed {
+  stroke-width: 0.2;
 }
 
 div.tooltip {
