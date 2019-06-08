@@ -15,15 +15,8 @@ class Norway extends React.Component {
       counties: [],
       municipalities: []
     };
-
-    this.handleClick = this.handleClick.bind(this);
-    this.handleCountyClick = this.handleCountyClick.bind(this);
-    this.showCountyTooltip = this.showCountyTooltip.bind(this);
-    this.hideCountyTooltip = this.hideCountyTooltip.bind(this);
-    this.handleMunicipalityClick = this.handleMunicipalityClick.bind(this);
-    this.showMunicipalityTooltip = this.showMunicipalityTooltip.bind(this);
-    this.hideMunicipalityTooltip = this.hideMunicipalityTooltip.bind(this);
   }
+
   projection() {
     const { width, height } = this.props;
     return geoMercator().fitSize([width, height], this.state.countiesCollection);
@@ -39,7 +32,15 @@ class Norway extends React.Component {
   }
 
   makeViewBoxString(x, y, width, height) {
-    return "" + x + " " + y + " " + width + " " + height;
+    return [x, y, width, height].join(" ");
+  }
+
+  getCountyNumber(countyIndex) {
+    return this.state.counties[countyIndex].properties.ID_1;
+  }
+
+  getCountyName(countyIndex) {
+    return this.state.counties[countyIndex].properties.NAME_1;
   }
 
   isCountySelected(countyIndex) {
@@ -57,7 +58,7 @@ class Norway extends React.Component {
     selection.classed("active", true);
   }
 
-  handleCountyClick(countyIndex, event) {
+  handleCountyClick = (countyIndex, event) => {
     this.setClickHandled();
 
     const was_selected = this.isCountySelected(countyIndex);
@@ -76,8 +77,19 @@ class Norway extends React.Component {
     onClick(event, this.getCountyNumber(countyIndex), this.getCountyName(countyIndex));
   }
 
+  deselectAllCounties() {
+    d3.selectAll("path").classed("active", (d, i, nodes) => {
+      const node = d3.select(nodes[i]);
+      node.classed("active", false);
+    });
+  }
+  
+  getSVG() {
+    return d3.select("#" + this.props.id);
+  }
+
   zoomIn(view) {
-    const svg = d3.select("#" + this.props.id);
+    const svg = this.getSVG();
     svg.classed("zoomed", true);
     svg.attr("viewBox", view);
     svg.selectAll(".municipality").style("pointer-events", "all");
@@ -87,38 +99,23 @@ class Norway extends React.Component {
   zoomOut() {
     const { width, height } = this.props;
     let view = this.makeViewBoxString(0, 0, width, height);
-    const svg = d3.select("#" + this.props.id);
+    const svg = this.getSVG();
     svg.classed("zoomed", false);
     svg.attr("viewBox", view);
     svg.selectAll(".municipality").style("pointer-events", "none");
     svg.selectAll(".county").style("pointer-events", "all");
   }
 
-  getCountyNumber(countyIndex) {
-    return this.state.counties[countyIndex].properties.ID_1;
-  }
-
-  getCountyName(countyIndex) {
-    return this.state.counties[countyIndex].properties.NAME_1;
-  }
-
   setClickHandled() {
-    d3.select("#" + this.props.id).classed("clicked", true);
+    this.getSVG().classed("clicked", true);
   }
 
   resetClickHandled() {
-    d3.select("#" + this.props.id).classed("clicked", false);
+    this.getSVG().classed("clicked", false);
   }
 
   isClickHandled() {
-    return d3.select("#" + this.props.id).classed("clicked");
-  }
-
-  deselectAllCounties() {
-    d3.selectAll("path").classed("active", (d, i, nodes) => {
-      const node = d3.select(nodes[i]);
-      node.classed("active", false);
-    });
+    return this.getSVG().classed("clicked");
   }
 
   componentDidMount() {
@@ -135,7 +132,7 @@ class Norway extends React.Component {
     return "" + id + "-" + kind + "-" + enumerator;
   }
 
-  handleClick(event) {
+  handleClick = (event) => {
     if (this.isClickHandled()) {
       this.resetClickHandled();
     } else {
@@ -178,7 +175,7 @@ class Norway extends React.Component {
       .style("top", y + "px");
   }
 
-  showCountyTooltip(countyIndex, event) {
+  showCountyTooltip = (countyIndex, event) => {
     this.fadeInTooltip();
 
     const { x, y } = this.getCountyCenter(countyIndex);
@@ -201,7 +198,7 @@ class Norway extends React.Component {
     onMouseOut(event);
   }
 
-  hideCountyTooltip(countyIndex, event) {
+  hideCountyTooltip = (countyIndex, event) => {
     this.hideTooltip(event);
     console.log("Hide Tooltip : " + this.getCountyName(countyIndex));
   }
@@ -227,14 +224,14 @@ class Norway extends React.Component {
     return this.state.municipalities[municipalityIndex].properties.NAME_2;
   }
 
-  handleMunicipalityClick(municipalityIndex, event) {
+  handleMunicipalityClick = (municipalityIndex, event) => {
     console.log("Clicked : " + this.getMunicipalityName(municipalityIndex));
 
     const { onClick } = this.props;
     onClick(event, this.getMunicipalityNumber(municipalityIndex), this.getMunicipalityName(municipalityIndex));
   }
 
-  showMunicipalityTooltip(municipalityIndex, event) {
+  showMunicipalityTooltip = (municipalityIndex, event) => {
     this.fadeInTooltip();
 
     const { x, y } = this.getMunicipalityCenter(municipalityIndex);
@@ -249,7 +246,7 @@ class Norway extends React.Component {
     console.log("Show Tooltip : " + this.getMunicipalityName(municipalityIndex));
   }
 
-  hideMunicipalityTooltip(municipalityIndex, event) {
+  hideMunicipalityTooltip = (municipalityIndex, event) => {
     this.hideTooltip(event);
     console.log("Hide Tooltip : " + this.getMunicipalityName(municipalityIndex));
   }
