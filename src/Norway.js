@@ -44,8 +44,7 @@ class Norway extends React.Component {
   }
 
   isCountySelected(countyIndex) {
-    const key = "#" + this.makeId("county", countyIndex);
-    const selection = d3.select(key);
+    const selection = this.getCounty(countyIndex);
     return selection.classed("active");
   }
 
@@ -72,7 +71,12 @@ class Norway extends React.Component {
     }
 
     const { onClick } = this.props;
-    onClick(event, this.getCountyNumber(countyIndex), this.getCountyName(countyIndex));
+    onClick(event, {
+      countyName: this.getCountyName(countyIndex),
+      countyNumber: this.getCountyNumber(countyIndex),
+      municipalityName: "",
+      municipalityNumber: ""
+    });
   };
 
   deselectAllCounties() {
@@ -232,11 +236,6 @@ class Norway extends React.Component {
     return this.state.municipalities[municipalityIndex].properties.NAME_2;
   }
 
-  getCountyByNumber(countyNumber) {
-    const countyIndex = this.getCountyIndexFromCountyNumber(countyNumber);
-    return countyIndex >= 0 ? this.getCounty(countyIndex) : undefined;
-  }
-
   getCountyIndexFromCountyNumber(countyNumber) {
     let countyIndex = -1;
     this.state.counties.filter((c, i) => {
@@ -249,23 +248,26 @@ class Norway extends React.Component {
     return countyIndex;
   }
 
-  getSelectedCountyFromMunicipalityIndex(municipalityIndex) {
-    const countyNumber = this.getMunicipalityCountyNumber(municipalityIndex);
-    return this.getCountyByNumber(countyNumber);
-  }
-
   handleMunicipalityClick = (municipalityIndex, event) => {
-    const county = this.getSelectedCountyFromMunicipalityIndex(municipalityIndex);
-
-    if (county === undefined) {
+    const countyNumber = this.getMunicipalityCountyNumber(municipalityIndex);
+    const countyIndex = this.getCountyIndexFromCountyNumber(countyNumber);
+    
+    if (countyIndex < 0) {
+      // Do not mark click as handled, let it propagate, we have nothing sensible to do here
       console.error("ERROR: No such county Found : ", this.getMunicipalityCountyNumber(municipalityIndex));
-    } else if (county.classed("active")) {
+      return;
+    }
+
+    if (this.isCountySelected(countyIndex)) {
       this.setClickHandled();
       const { onClick } = this.props;
-      onClick(event, this.getMunicipalityCountyNumber(municipalityIndex), this.getMunicipalityName(municipalityIndex));
+      onClick(event, {
+        countyName: this.getCountyName(countyIndex),
+        countyNumber: this.getCountyNumber(countyIndex),
+        municipalityName: this.getMunicipalityName(municipalityIndex),
+        municipalityNumber: this.getMunicipalityNumber(municipalityIndex)
+      });
     } else {
-      const countyNumber = this.getMunicipalityCountyNumber(municipalityIndex);
-      const countyIndex = this.getCountyIndexFromCountyNumber(countyNumber);
       this.handleCountyClick(countyIndex, event);
     }
   };
