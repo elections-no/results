@@ -5,21 +5,35 @@ import { geoMercator, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import counties from "./json/norway-counties.json";
 import municipalities from "./json/norway-municipalities.json";
+import polling_districts from "./json/norway-polling-districts.json";
 
 class Norway extends React.Component {
   constructor() {
     super();
     this.state = {
-      countiesCollection: [],
-      municipalitiesCollection: [],
       counties: [],
-      municipalities: []
+      countiesCollection: [],
+      municipalities: [],
+      municipalitiesCollection: [],
+      polling_districts: [],
+      pollingDistrictsCollection: []
     };
   }
 
   projection() {
     const { width, height } = this.props;
     return geoMercator().fitSize([width, height], this.state.countiesCollection);
+  }
+  
+  municipality_projection() {
+    const { width, height } = this.props;
+    return geoMercator().fitSize([width, height], this.state.municipalitiesCollection);
+  }
+
+  polling_projection() {
+    return geoMercator();
+    // const { width, height } = this.props;
+    // return geoMercator().fitSize([width, height], this.state.pollingDistrictsCollection);
   }
 
   getBoundingBoxCenter(bbox) {
@@ -129,9 +143,11 @@ class Norway extends React.Component {
   componentDidMount() {
     this.setState({
       countiesCollection: feature(counties, counties.objects.NOR_adm1),
-      municipalitiesCollection: feature(municipalities, municipalities.objects.NOR_adm2),
       counties: feature(counties, counties.objects.NOR_adm1).features,
-      municipalities: feature(municipalities, municipalities.objects.NOR_adm2).features
+      municipalitiesCollection: feature(municipalities, municipalities.objects.NOR_adm2),
+      municipalities: feature(municipalities, municipalities.objects.NOR_adm2).features,
+      pollingDistrictsCollection: feature(polling_districts, polling_districts.objects.feature6),
+      polling_districts: feature(polling_districts, polling_districts.objects.feature6).features
     });
   }
 
@@ -292,6 +308,10 @@ class Norway extends React.Component {
     console.log("Hide Tooltip : " + this.getMunicipalityName(municipalityIndex));
   };
 
+  handlePollingStationClick = (index, event) => {
+    console.log("handlePollingStationClick", this.state.polling_districts[index].properties.valgkretsnavn);
+  }
+
   render() {
     const { id, width, height } = this.props;
     return (
@@ -323,6 +343,17 @@ class Norway extends React.Component {
               />
             ))}
           </g>
+          {/* <g className="polling_districts">
+            {this.state.polling_districts.map((d, i) => (
+              <path
+                id={this.makeId("polling_district", i)}
+                key={`polling_district-${i}`}
+                d={geoPath().projection(this.polling_projection())(d)}
+                className="polling_district"
+                onClick={e => this.handlePollingStationClick(i, e)}
+              />
+            ))}
+          </g> */}
         </svg>
         <div className="tooltip" />
       </div>
