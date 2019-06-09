@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import * as d3 from "d3";
-import { geoMercator, geoPath } from "d3-geo";
+import { geoIdentity, geoMercator, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import counties from "./json/norway-counties.json";
 import municipalities from "./json/norway-municipalities.json";
@@ -31,9 +31,8 @@ class Norway extends React.Component {
   }
 
   polling_projection() {
-    return geoMercator();
-    // const { width, height } = this.props;
-    // return geoMercator().fitSize([width, height], this.state.pollingDistrictsCollection);
+    const { width, height } = this.props;
+    return geoIdentity().reflectY(true).fitSize([width,height],this.state.pollingDistrictsCollection);
   }
 
   getBoundingBoxCenter(bbox) {
