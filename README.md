@@ -72,3 +72,26 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Random notes:
+
+Make the topology simpler (reduce filesize)
+toposimplify -o output_file.json -P 0.07 norway-polling-districts.json
+
+Prettify big files
+cat norway-polling-districts.json | jq . > pretty.json
+
+
+
+cat Basisdata_0000_Norge_4258_Valgkretser_GeoJSON.geojson | jq -c '.[]' > compact_jq.geojson
+csplit compact_jq.geojson /"$(printf "{\"type\":\"FeatureCollection\"")"/ {6} -f feature
+
+mv feature01 feature01.geojson
+mv feature02 feature02.geojson
+mv feature03 feature03.geojson
+mv feature04 feature04.geojson
+mv feature05 feature05.geojson
+mv feature06 feature06.geojson
+mv feature07 feature07.geojson
+
+mapshaper simplify 2.7%
