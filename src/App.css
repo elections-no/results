@@ -57,8 +57,8 @@
 }
 
 .polling_district {
-  fill: pink;
-  stroke: red;
+  fill: lightcyan;
+  stroke: darkcyan;
   stroke-width: 0.5;
   pointer-events: all;
 }
