@@ -134,6 +134,7 @@ class BarChart extends React.Component {
 
   drawChart() {
     const { data, height } = this.props;
+    const max = Math.max(...data);
 
     this.svg.innerHTML = "";
 
@@ -145,10 +146,14 @@ class BarChart extends React.Component {
       .enter()
       .append("rect")
       .attr("x", (d, i) => i * 90) // space between columns
-      .attr("y", (d, i) => height - 10 * d)
+      .attr("y", (d, i) => height - this.makeHeight(height, max, d))
       .attr("width", 65)
-      .attr("height", (d, i) => d * 10)
+      .attr("height", (d, i) => this.makeHeight(height, max, d))
       .attr("fill", "gray");
+  }
+
+  makeHeight(height, max, d) {
+    return (height / max) * d;
   }
 
   render() {
@@ -159,9 +164,8 @@ class BarChart extends React.Component {
 
 class App extends React.Component {
   state = {
-    data: [12, 5, 6, 6, 9, 10],
-    map_data: [12, 5, 6, 6, 9, 10],
-    width: 700,
+    data: [550, 273, 138, 54, 80, 195, 326, 600, 124, 3, 0, 5, 2,  3,  2,  5, 2, 1, 7, 1,  24, 0],
+    width: 1500,
     height: 200,
     map_width: 800,
     map_height: 450
@@ -187,7 +191,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        <div className="App-header">
           <p>Election Results for 2019</p>
           <Norway
             id="simple"
@@ -198,10 +202,10 @@ class App extends React.Component {
             onMouseOut={this.handleMouseOut}
           />
           <BarChart data={this.state.data} width={this.state.width} height={this.state.height} />
-          <ElectionTypes />
+          {/* <ElectionTypes />
           <ElectionEvents />
-          <Elections />
-        </header>
+          <Elections /> */}
+        </div>
       </div>
     );
   }
