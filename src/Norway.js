@@ -323,7 +323,7 @@ class Norway extends React.Component {
                 key={`county-${i}`}
                 d={geoPath().projection(this.projection())(d)}
                 className="county"
-                onClick={e => this.handleCountyClick(i, e)}
+                onDoubleClick={e => this.handleCountyClick(i, e)}
                 onMouseOver={e => this.showCountyTooltip(i, e)}
                 onMouseOut={e => this.hideCountyTooltip(i, e)}
               />
