@@ -172,8 +172,10 @@ class App extends React.Component {
   };
 
   handleClick = (e, result) => {
-    const { countyName, countyNumber, municipalityName, municipalityNumber } = result;
-    if (municipalityName) {
+    const { pollingStationName, pollingStationNumber, countyName, countyNumber, municipalityName, municipalityNumber } = result;
+    if (pollingStationName) {
+      console.log("Click happened : " + pollingStationName + " (" + pollingStationNumber + "), " + countyName + " (" + countyNumber + "), " + municipalityName + " (" + municipalityNumber + ")");
+    } else if (municipalityName) {
       console.log("Click happened : " + countyName + " (" + countyNumber + "), " + municipalityName + " (" + municipalityNumber + ")");
     } else {
       console.log("Click happened : " + countyName + " (" + countyNumber + ")");

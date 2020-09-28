@@ -85,6 +85,8 @@ class Norway extends React.Component {
 
     const { onClick } = this.props;
     onClick(event, {
+      pollingStationName: "",
+      pollingStationNumber: "",
       countyName: this.getCountyName(countyIndex),
       countyNumber: this.getCountyNumber(countyIndex),
       municipalityName: "",
@@ -239,6 +241,22 @@ class Norway extends React.Component {
     return d3.select(key);
   }
 
+  isMunicipalitySelected(index) {
+    const selection = this.getMunicipality(index);
+    return selection.classed("municipality_active");
+  }
+
+  selectMunicipality(selection) {
+    selection.classed("municipality_active", true);
+  }
+
+  deselectAllMunicipalities() {
+    d3.selectAll("path").classed("municipality_active", (d, i, nodes) => {
+      const node = d3.select(nodes[i]);
+      node.classed("municipality_active", false);
+    });
+  }
+
   getMunicipalityCountyNumber(municipalityIndex) {
     return this.state.municipalities[municipalityIndex].properties.ID_1;
   }
@@ -263,6 +281,18 @@ class Norway extends React.Component {
     return countyIndex;
   }
 
+  getMunicipalityIndexFromMunicipalityNumber(number) {
+    let index = -1;
+    this.state.municipalities.filter((c, i) => {
+      if (c.properties.ID_2 === number) {
+        index = i;
+        return true;
+      }
+      return false;
+    });
+    return index;
+  }
+
   handleMunicipalityClick = (municipalityIndex, event) => {
     const countyNumber = this.getMunicipalityCountyNumber(municipalityIndex);
     const countyIndex = this.getCountyIndexFromCountyNumber(countyNumber);
@@ -275,8 +305,21 @@ class Norway extends React.Component {
 
     if (this.isCountySelected(countyIndex)) {
       this.setClickHandled();
+
+      const was_selected = this.isMunicipalitySelected(municipalityIndex);
+      this.deselectAllMunicipalities();
+
+      if (!was_selected) {
+        const selection = this.getMunicipality(municipalityIndex);
+        this.selectMunicipality(selection);
+        const { x, y, width, height } = this.getBoundingBox(selection);
+        this.zoomIn(this.makeViewBoxString(x, y, width, height));
+      }
+
       const { onClick } = this.props;
       onClick(event, {
+        pollingStationName: "",
+        pollingStationNumber: "",
         countyName: this.getCountyName(countyIndex),
         countyNumber: this.getCountyNumber(countyIndex),
         municipalityName: this.getMunicipalityName(municipalityIndex),
@@ -320,7 +363,7 @@ class Norway extends React.Component {
     return d3.select(key);
   }
 
-  getPollingStationCountyNumber(index) {
+  getPollingStationMunicipalityNumber(index) {
     return this.state.polling_districts[index].properties.nyttkommunenummer;
   }
 
@@ -335,9 +378,43 @@ class Norway extends React.Component {
   handlePollingStationClick = (index, event) => {
     console.log("handlePollingStationClick name ", this.getPollingStationName(index));
     console.log("handlePollingStationClick number ", this.getPollingStationNumber(index));
-    console.log("handlePollingStationClick", this.state.polling_districts[index].properties.kommunenummer);
-    console.log("handlePollingStationClick", this.getPollingStationCountyNumber(index));
-  }
+    let oldMunicipalityNumber = this.state.polling_districts[index].properties.kommunenummer;
+    console.log("handlePollingStationClick kommunenummer", oldMunicipalityNumber);
+    const municipalityNumber = this.getPollingStationMunicipalityNumber(index);
+    console.log("handlePollingStationClick nyttkommunenummer", municipalityNumber);
+
+    const municipalityIndex = this.getMunicipalityIndexFromMunicipalityNumber(oldMunicipalityNumber);
+
+    if (municipalityIndex < 0) {
+      // Do not mark click as handled, let it propagate, we have nothing sensible to do here
+      console.error("ERROR: No such municipality Found : ", municipalityNumber);
+      return;
+    }
+
+    const countyNumber = this.getMunicipalityCountyNumber(municipalityIndex);
+    const countyIndex = this.getCountyIndexFromCountyNumber(countyNumber);
+
+    if (countyIndex < 0) {
+      // Do not mark click as handled, let it propagate, we have nothing sensible to do here
+      console.error("ERROR: No such county Found : ", this.getMunicipalityCountyNumber(municipalityIndex));
+      return;
+    }
+
+    if (this.isMunicipalitySelected(municipalityIndex)) {
+      this.setClickHandled();
+      const { onClick } = this.props;
+      onClick(event, {
+        pollingStationName: this.getPollingStationName(index),
+        pollingStationNumber: this.getPollingStationNumber(index),
+        countyName: this.getCountyName(countyIndex),
+        countyNumber: this.getCountyNumber(countyIndex),
+        municipalityName: this.getMunicipalityName(municipalityIndex),
+        municipalityNumber: this.getMunicipalityNumber(municipalityIndex)
+      });
+    } else {
+      this.handleMunicipalityClick(municipalityIndex, event);
+    }
+  };
 
   showPollingStationTooltip = (index, event) => {
     this.fadeInTooltip();
