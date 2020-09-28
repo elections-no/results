@@ -307,9 +307,57 @@ class Norway extends React.Component {
     console.log("Hide Tooltip : " + this.getMunicipalityName(municipalityIndex));
   };
 
-  handlePollingStationClick = (index, event) => {
-    console.log("handlePollingStationClick", this.state.polling_districts[index].properties.valgkretsnavn);
+  /**
+   *  Polling station
+   */
+  getPollingStationCenter(index) {
+    const selection = this.getPollingStation(index);
+    return this.getCenter(selection);
   }
+
+  getPollingStation(index) {
+    const key = "#" + this.makeId("polling_district", index);
+    return d3.select(key);
+  }
+
+  getPollingStationCountyNumber(index) {
+    return this.state.polling_districts[index].properties.nyttkommunenummer;
+  }
+
+  getPollingStationNumber(index) {
+    return this.state.polling_districts[index].properties.valgkretsnummer;
+  }
+
+  getPollingStationName(index) {
+    return this.state.polling_districts[index].properties.valgkretsnavn;
+  }
+
+  handlePollingStationClick = (index, event) => {
+    console.log("handlePollingStationClick name ", this.getPollingStationName(index));
+    console.log("handlePollingStationClick number ", this.getPollingStationNumber(index));
+    console.log("handlePollingStationClick", this.state.polling_districts[index].properties.kommunenummer);
+    console.log("handlePollingStationClick", this.getPollingStationCountyNumber(index));
+  }
+
+  showPollingStationTooltip = (index, event) => {
+    this.fadeInTooltip();
+
+    const { x, y } = this.getPollingStationCenter(index);
+    const text = this.getPollingStationName(index);
+
+    this.positionTooltip(text, x, y);
+
+    // Propagate event
+    const { onMouseOver } = this.props;
+    onMouseOver(event, this.getPollingStationName(index));
+
+    console.log("Show Tooltip : " + this.getPollingStationName(index));
+  };
+
+  hidePollingStationTooltip = (index, event) => {
+    this.hideTooltip(event);
+    console.log("Hide Tooltip : " + this.getPollingStationName(index));
+  };
 
   render() {
     const { id, width, height } = this.props;
@@ -350,6 +398,8 @@ class Norway extends React.Component {
                 d={geoPath().projection(this.polling_projection())(d)}
                 className="polling_district"
                 onClick={e => this.handlePollingStationClick(i, e)}
+                onMouseOver={e => this.showPollingStationTooltip(i, e)}
+                onMouseOut={e => this.hidePollingStationTooltip(i, e)}
               />
             ))}
           </g> */}
