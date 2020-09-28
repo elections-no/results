@@ -52,6 +52,11 @@
   pointer-events: none;
 }
 
+.municipality.municipality_active {
+  fill: white;
+  stroke-width: 0.2;
+}
+
 .municipality.county_zoomed {
   stroke-width: 0.2;
 }
