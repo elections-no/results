@@ -24,7 +24,7 @@
 }
 
 .county.active {
-  fill: darkcyan;
+  fill: lightcyan;
   stroke-width: 0.2;
 }
 
@@ -46,10 +46,16 @@
 }
 
 .municipality {
+  transition: fill 1.5s ease-out;
   fill: none;
   stroke: gray;
   stroke-width: 0.5;
   pointer-events: none;
+}
+
+.municipality:hover {
+  fill: paleturquoise;
+  stroke: silver;
 }
 
 .municipality.municipality_active {
