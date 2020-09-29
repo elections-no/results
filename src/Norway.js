@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import * as d3 from "d3";
-import { geoIdentity, geoMercator, geoPath } from "d3-geo";
-import { feature } from "topojson-client";
-import counties from "./json/norway-counties.json";
-import municipalities from "./json/norway-municipalities.json";
-import polling_districts from "./json/norway-polling-districts.json";
+import {geoIdentity, geoPath} from "d3-geo";
+import {feature} from "topojson-client";
+import counties from "./topojson/norway-counties-simple.json";
+import municipalities from "./topojson/norway-municipalities-simple.json";
+import polling_districts from "./topojson/norway-polling-districts-simple.json";
 
 class Norway extends React.Component {
   constructor() {
@@ -22,12 +22,12 @@ class Norway extends React.Component {
 
   projection() {
     const { width, height } = this.props;
-    return geoMercator().fitSize([width, height], this.state.countiesCollection);
+    return geoIdentity().reflectY(true).fitSize([width,height],this.state.countiesCollection);
   }
   
   municipality_projection() {
     const { width, height } = this.props;
-    return geoMercator().fitSize([width, height], this.state.municipalitiesCollection);
+    return geoIdentity().reflectY(true).fitSize([width,height],this.state.municipalitiesCollection);
   }
 
   polling_projection() {
@@ -49,11 +49,11 @@ class Norway extends React.Component {
   }
 
   getCountyNumber(countyIndex) {
-    return this.state.counties[countyIndex].properties.ID_1;
+    return this.state.counties[countyIndex].properties.fylkesnummer;
   }
 
   getCountyName(countyIndex) {
-    return this.state.counties[countyIndex].properties.NAME_1;
+    return this.state.counties[countyIndex].properties.navn[0].navn;
   }
 
   isCountySelected(countyIndex) {
@@ -143,12 +143,12 @@ class Norway extends React.Component {
 
   componentDidMount() {
     this.setState({
-      countiesCollection: feature(counties, counties.objects.NOR_adm1),
-      counties: feature(counties, counties.objects.NOR_adm1).features,
-      municipalitiesCollection: feature(municipalities, municipalities.objects.NOR_adm2),
-      municipalities: feature(municipalities, municipalities.objects.NOR_adm2).features,
-      pollingDistrictsCollection: feature(polling_districts, polling_districts.objects.feature6),
-      polling_districts: feature(polling_districts, polling_districts.objects.feature6).features
+      countiesCollection: feature(counties, counties.objects.feature02),
+      counties: feature(counties, counties.objects.feature02).features,
+      municipalitiesCollection: feature(municipalities, municipalities.objects.feature04),
+      municipalities: feature(municipalities, municipalities.objects.feature04).features,
+      pollingDistrictsCollection: feature(polling_districts, polling_districts.objects.feature06),
+      polling_districts: feature(polling_districts, polling_districts.objects.feature06).features
     });
   }
 
@@ -259,21 +259,22 @@ class Norway extends React.Component {
   }
 
   getMunicipalityCountyNumber(municipalityIndex) {
-    return this.state.municipalities[municipalityIndex].properties.ID_1;
+    const municipality_number = this.state.municipalities[municipalityIndex].properties.kommunenummer;
+    return municipality_number.substring(0, 2);
   }
 
   getMunicipalityNumber(municipalityIndex) {
-    return this.state.municipalities[municipalityIndex].properties.ID_2;
+    return this.state.municipalities[municipalityIndex].properties.kommunenummer;
   }
 
   getMunicipalityName(municipalityIndex) {
-    return this.state.municipalities[municipalityIndex].properties.NAME_2;
+    return this.state.municipalities[municipalityIndex].properties.navn[0].navn;
   }
 
   getCountyIndexFromCountyNumber(countyNumber) {
     let countyIndex = -1;
     this.state.counties.filter((c, i) => {
-      if (c.properties.ID_1 === countyNumber) {
+      if (c.properties.fylkesnummer === countyNumber) {
         countyIndex = i;
         return true;
       }
@@ -285,7 +286,7 @@ class Norway extends React.Component {
   getMunicipalityIndexFromMunicipalityNumber(number) {
     let index = -1;
     this.state.municipalities.filter((c, i) => {
-      if (c.properties.ID_2 === number) {
+      if (c.properties.kommunenummer === number) {
         index = i;
         return true;
       }
@@ -363,11 +364,6 @@ class Norway extends React.Component {
     const key = "#" + this.makeId("polling_district", index);
     return d3.select(key);
   }
-
-  getPollingStationMunicipalityNumber(index) {
-    return this.state.polling_districts[index].properties.nyttkommunenummer;
-  }
-
   getPollingStationNumber(index) {
     return this.state.polling_districts[index].properties.valgkretsnummer;
   }
@@ -381,7 +377,7 @@ class Norway extends React.Component {
     console.log("handlePollingStationClick number ", this.getPollingStationNumber(index));
     let oldMunicipalityNumber = this.state.polling_districts[index].properties.kommunenummer;
     console.log("handlePollingStationClick kommunenummer", oldMunicipalityNumber);
-    const municipalityNumber = this.getPollingStationMunicipalityNumber(index);
+    const municipalityNumber = this.state.polling_districts[index].properties.nyttkommunenummer;
     console.log("handlePollingStationClick nyttkommunenummer", municipalityNumber);
 
     const municipalityIndex = this.getMunicipalityIndexFromMunicipalityNumber(oldMunicipalityNumber);
@@ -468,7 +464,7 @@ class Norway extends React.Component {
               />
             ))}
           </g>
-          {/* <g className="polling_districts">
+           <g className="polling_districts">
             {this.state.polling_districts.map((d, i) => (
               <path
                 id={this.makeId("polling_district", i)}
@@ -480,7 +476,7 @@ class Norway extends React.Component {
                 onMouseOut={e => this.hidePollingStationTooltip(i, e)}
               />
             ))}
-          </g> */}
+          </g>
         </svg>
         <div className="tooltip" />
       </div>

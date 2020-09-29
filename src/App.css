@@ -69,9 +69,24 @@
 
 .polling_district {
   fill: lightcyan;
+  fill-opacity: 0.5;
   stroke: darkcyan;
-  stroke-width: 0.5;
+  stroke-width: 0.01;
   pointer-events: all;
+}
+
+.polling_district:hover {
+  fill: paleturquoise;
+  stroke: silver;
+}
+
+.polling_district.polling_district_active {
+  fill: white;
+  stroke-width: 0.01;
+}
+
+.polling_district.county_zoomed {
+  stroke-width: 0.01;
 }
 
 div.tooltip {
