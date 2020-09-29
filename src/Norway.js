@@ -162,6 +162,7 @@ class Norway extends React.Component {
       this.resetClickHandled();
     } else {
       this.deselectAllCounties();
+      this.deselectAllMunicipalities();
       this.zoomOut();
     }
   };
