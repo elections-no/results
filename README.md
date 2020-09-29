@@ -12,8 +12,6 @@
 cat Basisdata_0000_Norge_25833_Fylker2019_GEOJSON.geojson | jq -c '.[]' > compact_jq.geojson
 ~~~
 
-cat Basisdata_0000_Norge_4258_Valgkretser_GeoJSON.geojson | jq -c '.[]' > compact_jq.geojson
-
 ### Split into its features
 
 ~~~bash
