@@ -8,8 +8,8 @@ import municipalities from "./topojson/norway-municipalities-simple.json";
 import polling_districts from "./topojson/norway-polling-districts-simple.json";
 
 class Norway extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       counties: [],
       countiesCollection: [],
