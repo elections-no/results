@@ -1,91 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Map of Norway in a React App
 
-## Available Scripts
+## Making maps:
 
-In the project directory, you can run:
+### Download maps
 
-### `npm run deploy`
+* 2019 [kommuner][1] [fylker][2] [valgkretser][3]
 
-Deploys the app to GitHub Pages, see tutorial [here](https://facebook.github.io/create-react-app/docs/deployment#github-pages-https-pagesgithubcom)
+### Compact geojson files
 
-The app is deployed at [https://elections.no/results/](https://elections.no/results/)
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-### Random notes:
-
-Make the topology simpler (reduce filesize)
-toposimplify -o output_file.json -P 0.07 norway-polling-districts.json
-
-Prettify big files
-cat norway-polling-districts.json | jq . > pretty.json
-
-
+~~~bash
+cat Basisdata_0000_Norge_25833_Fylker2019_GEOJSON.geojson | jq -c '.[]' > compact_jq.geojson
+~~~
 
 cat Basisdata_0000_Norge_4258_Valgkretser_GeoJSON.geojson | jq -c '.[]' > compact_jq.geojson
-csplit compact_jq.geojson /"$(printf "{\"type\":\"FeatureCollection\"")"/ {6} -f feature
 
+### Split into its features
+
+~~~bash
+csplit compact_jq.geojson /"$(printf "{\"type\":\"FeatureCollection\"")"/ {6} -f feature
+~~~
+
+Rename the files
+~~~bash
 mv feature01 feature01.geojson
 mv feature02 feature02.geojson
 mv feature03 feature03.geojson
@@ -93,5 +29,34 @@ mv feature04 feature04.geojson
 mv feature05 feature05.geojson
 mv feature06 feature06.geojson
 mv feature07 feature07.geojson
+~~~
 
-mapshaper simplify 2.7%
+feature00 seems to be empty
+~~~bash
+rm feature00
+~~~
+
+### Simplify
+
+1. Look at the geojson feature files. Figure out which has your map.
+1. Go to [mapshaper.org][4]
+1. Upload the right feature file.
+1. Uncheck all fixing - it's too late for you now
+1. Click on simplify
+1. Keep the defaults, because who knows what is right anyway?
+1. Adjust the slider to something - 19% might be too high - 2.7 might be too low
+1. Click on export and choose topojson
+1. Click on export
+1. Store topojson map somewhere
+
+### Make topology simpler (reduce filesize) - didn't try this last time
+
+toposimplify -o output_file.json -P 0.07 norway-polling-districts.json
+
+### Prettify big files - didn't try this last time
+cat norway-polling-districts.json | jq . > pretty.json
+
+[1]: https://kartkatalog.geonorge.no/metadata/administrative-enheter-kommuner-historiske-data-2019/83e441aa-90ee-455e-8890-8df98881b8c8
+[2]: https://kartkatalog.geonorge.no/metadata/administrative-enheter-fylker-historiske-data-2019/c40ddb2f-2a23-4c4b-9750-7b50458110eb
+[3]: https://kartkatalog.geonorge.no/metadata/valgkretser-stemmekretser-historiske-data-2019/abb349dc-3625-41f9-b1a2-8f716bf53d77
+[4]: https://mapshaper.org/
